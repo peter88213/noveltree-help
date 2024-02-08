@@ -42,7 +42,8 @@ or Section menu.
 
 
 Formatting text
--
+---------------
+
 It is assumed that very few types of text markup are needed for a novel
 text. When importing from ODT, *noveltree* supports the following
 formats:
