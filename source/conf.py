@@ -9,7 +9,7 @@
 project = 'noveltree-help'
 copyright = '2024, peter88213'
 author = 'peter88213'
-release = '0.1'
+release = '0.2'
 # html_logo = '_images/nLogo64.png'
 html_title = 'noveltree help'
 html_favicon = '_images/nLogo32.ico'
