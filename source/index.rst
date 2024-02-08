@@ -43,11 +43,10 @@ This page refers to the latest `noveltree <https://peter88213.github.io/noveltre
    
    project_view
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Plugins
+   
+   noveltree_collection/index
 
 
-
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`search`
