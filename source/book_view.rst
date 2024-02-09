@@ -17,9 +17,26 @@ Title, description, and author
 
 Title and description are displayed in an editable "index card". 
 
-The book title and author can be completed by pressing the ``Enter`` key. 
+The editing of book title and author can be completed by pressing the ``Enter`` key. 
 Changes to the description are applied when the mouse is clicked 
 anywhere outside the text input field. 
+
+After exporting the book to an *.odt* document, title and description 
+appear in the document properties. 
+
+.. figure:: _images/bookView08.png
+   :alt: Screenshot
+
+   LibreOffice Writer screenshot
+
+These properties are visible, for example, when the mouse pointer is over 
+the document in the Windows Explorer.
+
+.. figure:: _images/bookView09.png
+   :alt: Screenshot
+   
+   Windows 10 Explorer screenshot
+   
 
 
 Document language
@@ -33,9 +50,23 @@ Expand or collapse this frame by clicking on the label.
 - Language code acc. to ISO 639-1 
 - Country code acc. to ISO 3166-2
 
-If not set, the System locale setting will be used when exporting the first document.
+This information controls the spelling checker for export documents.
 
-You can also set the document language with LibreOffice, then it will be applied on import. 
+.. figure:: _images/bookView10.png
+   :alt: Screenshot
+
+   LibreOffice Writer screenshot
+
+If not set, the System locale setting will be used as default.
+
+.. |screen01| image:: _images/bookView11.png
+   :alt: Screenshot
+
+.. hint::
+   You can also set or change the document language with LibreOffice, then it will be applied on import. 
+   |screen01|
+
+
 
 
 Auto numbering
