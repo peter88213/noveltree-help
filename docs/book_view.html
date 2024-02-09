@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chapter menu &mdash; noveltree help</title>
+  <title>Book view &mdash; noveltree help</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -22,8 +22,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Section menu" href="section_menu.html" />
-    <link rel="prev" title="Part menu" href="part_menu.html" /> 
+    <link rel="next" title="noveltree_aeon2" href="noveltree_aeon2/index.html" />
+    <link rel="prev" title="The toolbar" href="toolbar.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -52,17 +52,11 @@
 <li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotting with noveltree</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Command reference</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="file_menu.html">File menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="view_menu.html">View menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part_menu.html">Part menu</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Chapter menu</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#add">Add</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#set-type">Set Type</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#change-level">Change Level</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#export-chapter-descriptions-for-editing">Export chapter descriptions for editing</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="chapter_menu.html">Chapter menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="section_menu.html">Section menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="characters_menu.html">Characters menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="locations_menu.html">Locations menu</a></li>
@@ -76,8 +70,17 @@
 <li class="toctree-l1"><a class="reference internal" href="toolbar.html">The toolbar</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Properties</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="book_view.html">Book view</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Book view</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#title-description-and-author">Title, description and author</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-language">Document language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#auto-numbering">Auto numbering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#renamings">Renamings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#narrative-time">Narrative time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-pogress">Writing pogress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cover-thumbnail">Cover thumbnail</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
 <ul>
@@ -104,9 +107,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Chapter menu</li>
+      <li class="breadcrumb-item active">Book view</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/chapter_menu.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/book_view.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -114,42 +117,72 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="chapter-menu">
-<h1>Chapter menu<a class="headerlink" href="#chapter-menu" title="Link to this heading"></a></h1>
-<p><strong>Chapter operation</strong></p>
-<section id="add">
-<h2>Add<a class="headerlink" href="#add" title="Link to this heading"></a></h2>
-<p><strong>Add a new chapter</strong></p>
-<p>You can add a chapter to the tree with <strong>Chapter &gt; Add</strong>. - The new
-chapter is placed at the next free position after the selection, if
-possible. - Otherwise, the new chapter is placed at the end of the
-“Book” branch. - The new chapter has an auto-generated title. You can
-change it in the right pane.</p>
+  <section id="book-view">
+<h1>Book view<a class="headerlink" href="#book-view" title="Link to this heading"></a></h1>
+<section id="title-description-and-author">
+<h2>Title, description and author<a class="headerlink" href="#title-description-and-author" title="Link to this heading"></a></h2>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView01.png" />
+</figure>
+<p>The book title and author can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.
+Changes to the book description are applied when the mouse is clicked
+anywhere outside the text input field.</p>
 </section>
-<section id="set-type">
-<h2>Set Type<a class="headerlink" href="#set-type" title="Link to this heading"></a></h2>
-<p>Sets the <a class="reference external" href="basic_concepts.html#part-chapter-section-types">type</a> of the selected chapters. This can be
-<em>Normal</em> or <em>Unused</em>.</p>
+<section id="document-language">
+<h2>Document language<a class="headerlink" href="#document-language" title="Link to this heading"></a></h2>
+<p>Expand or collapse this frame by clicking on the label.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView02.png" />
+</figure>
 <ul class="simple">
-<li><p>Setting the type of a chapter to <em>Unused</em> will also make its sections
-<em>Unused</em>.</p></li>
+<li><p>Language code acc. to ISO 639-1</p></li>
+<li><p>Country code acc. to ISO 3166-2</p></li>
 </ul>
+<p>If not set, the System locale setting will be used when exporting the first document.</p>
+<p>You can also set the document language with LibreOffice, then it will be applied on import.</p>
 </section>
-<section id="change-level">
-<h2>Change Level<a class="headerlink" href="#change-level" title="Link to this heading"></a></h2>
-<p>Changes the level of the selected chapters.</p>
-<ul class="simple">
-<li><p><strong>1st Level</strong> converts the selected parts into chapters.</p></li>
-<li><p><strong>2nd Level</strong> converts the selected chapters into parts.</p></li>
-</ul>
+<section id="auto-numbering">
+<h2>Auto numbering<a class="headerlink" href="#auto-numbering" title="Link to this heading"></a></h2>
+<p>Expand or collapse this frame by clicking on the label.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView03.png" />
+</figure>
+<p>Prefix and suffix entries can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure to add a space character to separate the prefix or
+suffix from the chapter or part number.</p>
+</div>
 </section>
-<section id="export-chapter-descriptions-for-editing">
-<h2>Export chapter descriptions for editing<a class="headerlink" href="#export-chapter-descriptions-for-editing" title="Link to this heading"></a></h2>
-<p><strong>Export an ODT document</strong></p>
-<p>This will generate a new OpenDocument text document (odt) containing a
-<strong>brief synopsis</strong> with part/chapter headings and chapter descriptions
-that can be edited and written back to project format. File name suffix
-is <code class="docutils literal notranslate"><span class="pre">_chapters_tmp</span></code>.</p>
+<section id="renamings">
+<h2>Renamings<a class="headerlink" href="#renamings" title="Link to this heading"></a></h2>
+<p>Expand or collapse this frame by clicking on the label.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView04.png" />
+</figure>
+</section>
+<section id="narrative-time">
+<h2>Narrative time<a class="headerlink" href="#narrative-time" title="Link to this heading"></a></h2>
+<p>Expand or collapse this frame by clicking on the label.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView05.png" />
+</figure>
+</section>
+<section id="writing-pogress">
+<h2>Writing pogress<a class="headerlink" href="#writing-pogress" title="Link to this heading"></a></h2>
+<p>Expand or collapse this frame by clicking on the label.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView06.png" />
+</figure>
+</section>
+<section id="cover-thumbnail">
+<h2>Cover thumbnail<a class="headerlink" href="#cover-thumbnail" title="Link to this heading"></a></h2>
+<p>A cover thumbnail is displayed with the properties if you
+provide a PNG image file with the project name along with the project
+file. The recommended image width is 100 to 200 pixels.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/bookView07.png" />
+</figure>
 </section>
 </section>
 
@@ -157,8 +190,8 @@ is <code class="docutils literal notranslate"><span class="pre">_chapters_tmp</s
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="part_menu.html" class="btn btn-neutral float-left" title="Part menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="section_menu.html" class="btn btn-neutral float-right" title="Section menu" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="toolbar.html" class="btn btn-neutral float-left" title="The toolbar" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="noveltree_aeon2/index.html" class="btn btn-neutral float-right" title="noveltree_aeon2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

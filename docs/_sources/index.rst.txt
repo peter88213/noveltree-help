@@ -41,7 +41,7 @@ This page refers to the latest `noveltree <https://peter88213.github.io/noveltre
    :maxdepth: 2
    :caption: Properties
    
-   project_view
+   book_view
 
 .. toctree::
    :maxdepth: 2

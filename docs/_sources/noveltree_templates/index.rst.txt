@@ -127,5 +127,4 @@ This file generates the following structure in an empty project:
 .. figure:: _images/structure01.png
    :alt: Screenshot
 
-   Screenshot
 
