@@ -1,14 +1,24 @@
-Book view
-==========
+Book properties
+===============
 
-Title, description and author
------------------------------
+.. |ico01| image:: _images/viewBook.png
+   :alt: Book
+
+The Book properties view opens in the right pane when you 
+select "Book" in the tree, or when you click on the |ico01| 
+toolbar icon. It is the initial view after opening a *noveltree* project.
+
+
+Title, description, and author
+------------------------------
 
 .. figure:: _images/bookView01.png
    :alt: Screenshot
 
+Title and description are displayed in an editable "index card". 
+
 The book title and author can be completed by pressing the ``Enter`` key. 
-Changes to the book description are applied when the mouse is clicked 
+Changes to the description are applied when the mouse is clicked 
 anywhere outside the text input field. 
 
 
@@ -74,8 +84,8 @@ Expand or collapse this frame by clicking on the label.
 Cover thumbnail
 ---------------
 
-A cover thumbnail is displayed with the properties if you
-provide a PNG image file with the project name along with the project
+A cover thumbnail is displayed with the book properties if you
+provide a PNG image file with the project name along with the *.novx*
 file. The recommended image width is 100 to 200 pixels.
 
 .. figure:: _images/bookView07.png

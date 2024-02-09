@@ -42,6 +42,14 @@ This page refers to the latest `noveltree <https://peter88213.github.io/noveltre
    :caption: Properties
    
    book_view
+   chapter_view
+   stage_view
+   section_view
+   character_view
+   world_view
+   arc_view
+   point_view
+   projectnote_view
 
 .. toctree::
    :maxdepth: 2

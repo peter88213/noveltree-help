@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index &mdash; noveltree help</title>
+  <title>Turning point properties &mdash; noveltree help</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -19,8 +20,10 @@
         <script src="_static/doctools.js?v=888ff710"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Project note properties" href="projectnote_view.html" />
+    <link rel="prev" title="Arc properties" href="arc_view.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -67,7 +70,7 @@
 <li class="toctree-l1"><a class="reference internal" href="toolbar.html">The toolbar</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Properties</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="book_view.html">Book properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chapter_view.html">Chapter/part properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="stage_view.html">Stage properties</a></li>
@@ -75,7 +78,18 @@
 <li class="toctree-l1"><a class="reference internal" href="character_view.html">Character properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="world_view.html">Location/item properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="arc_view.html">Arc properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="point_view.html">Turning point properties</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Turning point properties</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#title-and-description">Title and description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assigned-section">Assigned section</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#assign-section">Assign section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clear-assignment">Clear assignment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#go-to-section">Go to section</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sticky-note">“Sticky note”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation-buttons">Navigation buttons</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="projectnote_view.html">Project note properties</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Plugins</span></p>
@@ -103,8 +117,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Index</li>
+      <li class="breadcrumb-item active">Turning point properties</li>
       <li class="wy-breadcrumbs-aside">
+            <a href="_sources/point_view.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -112,17 +127,73 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <section id="turning-point-properties">
+<h1>Turning point properties<a class="headerlink" href="#turning-point-properties" title="Link to this heading"></a></h1>
+<p>The Turning point properties view opens in the right pane when you
+select a turning point in the tree.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/pointView01.png" />
+</figure>
+<section id="title-and-description">
+<h2>Title and description<a class="headerlink" href="#title-and-description" title="Link to this heading"></a></h2>
+<p>Title and description are displayed in an editable “index card”.</p>
+<p>The title can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.
+Changes to the description are applied when the mouse is clicked
+anywhere outside the text input field.</p>
+</section>
+<section id="assigned-section">
+<h2>Assigned section<a class="headerlink" href="#assigned-section" title="Link to this heading"></a></h2>
+<p>You can connect the turning point to a section in the book.
+The label below “Section” displays the section title.</p>
+<section id="assign-section">
+<h3>Assign section<a class="headerlink" href="#assign-section" title="Link to this heading"></a></h3>
+<p>When clicking on the <strong>Assign section</strong> button, the “Pick mode”
+is activated, and the cursor changes to a “plus” shape. By clicking
+on a section, this section will be assigned to the turning point.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can exit the “Pick mode” without selecting a section by
+clicking on the highlighted status bar, or by pressing the <code class="docutils literal notranslate"><span class="pre">Esc</span></code>
+key.</p>
 </div>
+</section>
+<section id="clear-assignment">
+<h3>Clear assignment<a class="headerlink" href="#clear-assignment" title="Link to this heading"></a></h3>
+<p>If a sectin is assigned to the turning point, you can disconnect it
+by clicking on the <strong>Clear assignment</strong> button.</p>
+</section>
+<section id="go-to-section">
+<h3>Go to section<a class="headerlink" href="#go-to-section" title="Link to this heading"></a></h3>
+<p>Clicking on the <strong>Go to section</strong> button changes the selection and opens
+the properties view of the assigned section.</p>
+</section>
+</section>
+<section id="sticky-note">
+<h2>“Sticky note”<a class="headerlink" href="#sticky-note" title="Link to this heading"></a></h2>
+<p>The yellow text area is for notes. Changes are applied
+when the mouse is clicked anywhere outside the text input field.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The “sticky notes” are only for working with <em>noveltree</em>.
+They are not meant to be exported into a document.</p>
+</div>
+</section>
+<section id="navigation-buttons">
+<h2>Navigation buttons<a class="headerlink" href="#navigation-buttons" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Previous</strong> moves the selection to the previous turning point in the tree.</p></li>
+<li><p><strong>Next</strong> moves the selection to the next turning point in the tree.</p></li>
+</ul>
+</section>
+</section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="arc_view.html" class="btn btn-neutral float-left" title="Arc properties" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="projectnote_view.html" class="btn btn-neutral float-right" title="Project note properties" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
