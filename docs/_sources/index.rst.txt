@@ -47,6 +47,12 @@ This page refers to the latest `noveltree <https://peter88213.github.io/noveltre
    :maxdepth: 2
    :caption: Plugins
    
+   noveltree_aeon2/index
    noveltree_collection/index
+   noveltree_editor/index
+   noveltree_matrix/index
+   noveltree_templates/index
+   noveltree_timeline/index
+   noveltree_updater/index
 
 

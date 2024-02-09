@@ -30,7 +30,8 @@ REM GitHub opotion for Windows, see: https://github.com/sphinx-doc/sphinx/issues
 if "%1" == "github" (
     %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
     robocopy %BUILDDIR%/html docs /E 
-    echo.Generated files copied to ../docs
+    echo.Generated files copied to docs
+    type nul > docs\.nojekyll
     goto end
 )
 
