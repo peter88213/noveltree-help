@@ -37,7 +37,8 @@ Copy/Paste text
 Format text
 -----------
 
-.. highlight:: html
+.. role:: html(code)
+   :language: html
 
 It is assumed that very few types of text markup are needed for a novel
 text:
@@ -46,11 +47,20 @@ text:
 -  *Strongly emphasized* (usually shown as capitalized).
 -  *Citation* (paragraph visually distinguished from body text).
 
--  **Ctrl-I** places ``<em>emphasized markup</em>`` around the selected text or at the
-   cursor. If the selection is already emphasized, remove markup.
--  **Ctrl-B** places ``<strong>strong markup</strong>`` around the selected text or at the
-   cursor. If the selection is already strong, remove markup.
--  **Ctrl-M** removes “emphasized” and “srong” markup from the selection.
+-  **Ctrl-I** places "emphasized" markup around the selected text or at the
+   cursor, like so: 
+   
+   :html:`<em>Example</em>`
+   
+   If the selection is already emphasized, the command removes the markup.
+-  **Ctrl-B** places "strong" markup around the selected text or at the
+   cursor, like so: 
+   
+   :html:`<strong>Example</strong>`
+   
+   If the selection is already strong, the command removes the markup.
+
+-  **Ctrl-M** removes “emphasized” and “strong” markup from the selection.
 
 
 Undo/Redo

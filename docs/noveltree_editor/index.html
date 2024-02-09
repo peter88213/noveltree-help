@@ -158,15 +158,21 @@ the foreground.</p></li>
 <h2>Format text<a class="headerlink" href="#format-text" title="Link to this heading"></a></h2>
 <p>It is assumed that very few types of text markup are needed for a novel
 text:</p>
-<ul class="simple">
+<ul>
 <li><p><em>Emphasized</em> (usually shown as italics).</p></li>
 <li><p><em>Strongly emphasized</em> (usually shown as capitalized).</p></li>
 <li><p><em>Citation</em> (paragraph visually distinguished from body text).</p></li>
-<li><p><strong>Ctrl-I</strong> places <code class="docutils literal notranslate"><span class="pre">&lt;em&gt;emphasized</span> <span class="pre">markup&lt;/em&gt;</span></code> around the selected text or at the
-cursor. If the selection is already emphasized, remove markup.</p></li>
-<li><p><strong>Ctrl-B</strong> places <code class="docutils literal notranslate"><span class="pre">&lt;strong&gt;strong</span> <span class="pre">markup&lt;/strong&gt;</span></code> around the selected text or at the
-cursor. If the selection is already strong, remove markup.</p></li>
-<li><p><strong>Ctrl-M</strong> removes “emphasized” and “srong” markup from the selection.</p></li>
+<li><p><strong>Ctrl-I</strong> places “emphasized” markup around the selected text or at the
+cursor, like so:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Example<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span></code></p>
+<p>If the selection is already emphasized, the command removes the markup.</p>
+</li>
+<li><p><strong>Ctrl-B</strong> places “strong” markup around the selected text or at the
+cursor, like so:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Example<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span></code></p>
+<p>If the selection is already strong, the command removes the markup.</p>
+</li>
+<li><p><strong>Ctrl-M</strong> removes “emphasized” and “strong” markup from the selection.</p></li>
 </ul>
 </section>
 <section id="undo-redo">
