@@ -37,17 +37,7 @@ Copy/Paste text
 Format text
 -----------
 
--  **Ctrl-I** places “Italic” markup around the selected text or at the
-   cursor. If the selection is already italic, remove markup.
--  **Ctrl-B** places “Bold” markup around the selected text or at the
-   cursor. If the selection is already bold, remove markup.
--  **Ctrl-M** removes “Bold” and “Italic” markup from the selection.
-
-*The operations described above do not take effect on markup outsides
-the selection. Be sure not to nest markup by accident.*
-
-A note about formatting text
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. highlight:: html
 
 It is assumed that very few types of text markup are needed for a novel
 text:
@@ -56,13 +46,12 @@ text:
 -  *Strongly emphasized* (usually shown as capitalized).
 -  *Citation* (paragraph visually distinguished from body text).
 
-When exporting to ODT format, *noveltree* replaces these formattings as
-follows:
+-  **Ctrl-I** places ``<em>emphasized markup</em>`` around the selected text or at the
+   cursor. If the selection is already emphasized, remove markup.
+-  **Ctrl-B** places ``<strong>strong markup</strong>`` around the selected text or at the
+   cursor. If the selection is already strong, remove markup.
+-  **Ctrl-M** removes “emphasized” and “srong” markup from the selection.
 
--  Text with ``[i]Italic markup[/i]`` is formatted as *Emphasized*.
--  Text with ``[b]Bold markup[/b]`` is formatted as *Strongly
-   emphasized*.
--  Paragraphs starting with ``>`` are formatted as *Quote*.
 
 Undo/Redo
 ---------

@@ -81,10 +81,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#launch-the-section-editor">Launch the section editor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#select-text">Select text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#copy-paste-text">Copy/Paste text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#format-text">Format text</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#a-note-about-formatting-text">A note about formatting text</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#format-text">Format text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#undo-redo">Undo/Redo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#split-a-section">Split a section</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#create-a-section">Create a section</a></li>
@@ -159,33 +156,18 @@ the foreground.</p></li>
 </section>
 <section id="format-text">
 <h2>Format text<a class="headerlink" href="#format-text" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><strong>Ctrl-I</strong> places “Italic” markup around the selected text or at the
-cursor. If the selection is already italic, remove markup.</p></li>
-<li><p><strong>Ctrl-B</strong> places “Bold” markup around the selected text or at the
-cursor. If the selection is already bold, remove markup.</p></li>
-<li><p><strong>Ctrl-M</strong> removes “Bold” and “Italic” markup from the selection.</p></li>
-</ul>
-<p><em>The operations described above do not take effect on markup outsides
-the selection. Be sure not to nest markup by accident.</em></p>
-<section id="a-note-about-formatting-text">
-<h3>A note about formatting text<a class="headerlink" href="#a-note-about-formatting-text" title="Link to this heading"></a></h3>
 <p>It is assumed that very few types of text markup are needed for a novel
 text:</p>
 <ul class="simple">
 <li><p><em>Emphasized</em> (usually shown as italics).</p></li>
 <li><p><em>Strongly emphasized</em> (usually shown as capitalized).</p></li>
 <li><p><em>Citation</em> (paragraph visually distinguished from body text).</p></li>
+<li><p><strong>Ctrl-I</strong> places <code class="docutils literal notranslate"><span class="pre">&lt;em&gt;emphasized</span> <span class="pre">markup&lt;/em&gt;</span></code> around the selected text or at the
+cursor. If the selection is already emphasized, remove markup.</p></li>
+<li><p><strong>Ctrl-B</strong> places <code class="docutils literal notranslate"><span class="pre">&lt;strong&gt;strong</span> <span class="pre">markup&lt;/strong&gt;</span></code> around the selected text or at the
+cursor. If the selection is already strong, remove markup.</p></li>
+<li><p><strong>Ctrl-M</strong> removes “emphasized” and “srong” markup from the selection.</p></li>
 </ul>
-<p>When exporting to ODT format, <em>noveltree</em> replaces these formattings as
-follows:</p>
-<ul class="simple">
-<li><p>Text with <code class="docutils literal notranslate"><span class="pre">[i]Italic</span> <span class="pre">markup[/i]</span></code> is formatted as <em>Emphasized</em>.</p></li>
-<li><p>Text with <code class="docutils literal notranslate"><span class="pre">[b]Bold</span> <span class="pre">markup[/b]</span></code> is formatted as <em>Strongly
-emphasized</em>.</p></li>
-<li><p>Paragraphs starting with <code class="docutils literal notranslate"><span class="pre">&gt;</span></code> are formatted as <em>Quote</em>.</p></li>
-</ul>
-</section>
 </section>
 <section id="undo-redo">
 <h2>Undo/Redo<a class="headerlink" href="#undo-redo" title="Link to this heading"></a></h2>
