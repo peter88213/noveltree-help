@@ -25,6 +25,12 @@ Show plot list
 This will generate a list-formatted HTML file, and launch your system’s
 web browser for displaying it.
 
+.. figure:: _images/plotMenu01.jpg
+   :alt: Edge browser screenshot
+
+   Edge browser screenshot
+
+
 -  The Report is a temporary file, auto-deleted on program exit.
 -  If needed, you can have your web browser save or print it.
 
