@@ -7,6 +7,10 @@ This will open a pop-up window with a list containing previously
 exported ODT documents that can be re-imported, thus updating the
 current project.
 
+.. figure:: _images/importMenu01.png
+   :alt: noveltree screenshot
+
+
 -  The document types and dates are shown.
 -  Documents that are newer than the project file are highlighted in
    green.
