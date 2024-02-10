@@ -124,7 +124,7 @@ file. The recommended image width is 100 to 200 pixels.
    
    Windows 10 Explorer screenshot
    
-.. figure:: _images/bookView07.png
+.. figure:: _images/bookView07.jpg
    :alt: noveltree screenshot
 
    noveltree screenshot

@@ -152,7 +152,7 @@ Copy style sheet
    folder with **File > Copy style sheet**. This allows you to view the
    *.novx* project file with a web browser.
 
-.. figure:: _images/fileMenu01.png
+.. figure:: _images/fileMenu01.jpg
    :alt: Edge browser screenshot
 
    Edge browser screenshot
