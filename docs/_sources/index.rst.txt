@@ -6,8 +6,8 @@ noveltree Online help
 =====================
 
 
-This page refers to the latest `noveltree <https://peter88213.github.io/noveltree/>`_ release. You can open it with
-**Help > Online help**.
+This page refers to the latest `noveltree <https://peter88213.github.io/noveltree/>`__ 
+release. You can open it with **Help > Online help**.
 
 .. toctree::
    :maxdepth: 2

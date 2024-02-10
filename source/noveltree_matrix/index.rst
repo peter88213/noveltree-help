@@ -4,8 +4,9 @@ noveltree_matrix
 
 **Online help**
 
-This page refers to the latest `noveltree_matrix <https://peter88213.github.io/noveltree_matrix/>`_ release. You can open it with
-**Help > Matrix plugin Online help**.
+This page refers to the latest `noveltree_matrix 
+<https://peter88213.github.io/noveltree_matrix/>`__ release. 
+You can open it with **Help > Matrix plugin Online help**.
 
 
 Start the matrix manager

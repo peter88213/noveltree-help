@@ -21,8 +21,8 @@ You can add a chapter to the tree with **Chapter > Add**.
 Set Type
 --------
 
-Sets the `type <basic_concepts.html#part-chapter-section-types>`__ of the selected chapters. This can be
-*Normal* or *Unused*.
+Sets the `type <basic_concepts.html#part-chapter-section-types>`__ of 
+the selected chapters. This can be *Normal* or *Unused*.
 
 .. hint::
    Setting the type of a chapter to *Unused* will also make its sections *Unused*.

@@ -4,8 +4,9 @@ noveltree_collection
 
 **Online help**
 
-This page refers to the latest `noveltree_collection <https://peter88213.github.io/noveltree_collection/>`_ release. You can open it with
-**Help > Collection plugin Online help**.
+This page refers to the latest `noveltree_collection 
+<https://peter88213.github.io/noveltree_collection/>`__ release. 
+You can open it with **Help > Collection plugin Online help**.
 
 
 Start the collection manager

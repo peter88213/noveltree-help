@@ -49,19 +49,11 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="desktop.html">Desktop overview</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Basic concepts</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#part-chapter-section-types">Part/chapter/section types</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#normal">Normal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#unused">Unused</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-chapter-section-types">Part/chapter/section types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#section-completion-status">Section completion status</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#formatting-text">Formatting text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comments-footnotes-endnotes">Comments, footnotes, endnotes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#about-document-language-handling">About document language handling</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#document-overall">Document overall</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#text-passages-in-sections">Text passages in sections</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#about-document-language-handling">About document language handling</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotting with noveltree</a></li>
@@ -138,9 +130,8 @@
 <p>Each part, chapter, and section is of a type that can be changed via
 context menu or Part/Chapter/Section menu. The type can be <em>Normal</em> or
 <em>Unused</em>.</p>
-<section id="normal">
-<h3>Normal<a class="headerlink" href="#normal" title="Link to this heading"></a></h3>
-<ul class="simple">
+<dl class="simple">
+<dt>Normal</dt><dd><ul class="simple">
 <li><p>“Normal” type parts, chapters, and sections are counted. The totals
 are displayed in the status bar.</p></li>
 <li><p>“Normal” type sections are exported to the manuscript and included in
@@ -149,17 +140,16 @@ the word count.</p></li>
 <li><p>“Normal” type tree elements are color coded according to the
 <a class="reference external" href="view_menu.html#coloring-mode">coloring mode settings</a>.</p></li>
 </ul>
-</section>
-<section id="unused">
-<h3>Unused<a class="headerlink" href="#unused" title="Link to this heading"></a></h3>
-<p>You can mark parts, chapters, and sections as unused to exclude them
+</dd>
+<dt>Unused</dt><dd><p>You can mark parts, chapters, and sections as unused to exclude them
 from word count totals and export.</p>
 <ul class="simple">
 <li><p>The subelements of unused parts and chapters are unused as well.</p></li>
 <li><p>If you mark a section “Unused”, its properties are preserved.</p></li>
 <li><p>Unused tree elements are displayed in gray.</p></li>
 </ul>
-</section>
+</dd>
+</dl>
 </section>
 <section id="section-completion-status">
 <h2>Section completion status<a class="headerlink" href="#section-completion-status" title="Link to this heading"></a></h2>
@@ -167,7 +157,7 @@ from word count totals and export.</p>
 or Section menu.</p>
 <ul class="simple">
 <li><p>Newly created sections are set to “Outline” by default.</p></li>
-<li><p>Word counts by status appear in the “Book” properties.</p></li>
+<li><p>Word counts by status appear in the <a class="reference external" href="book_view.html#writing-pogress">Book properties</a>.</p></li>
 </ul>
 </section>
 <section id="formatting-text">
@@ -193,19 +183,15 @@ checking and country-specific character substitutions. In addition,
 Office Writer lets you assign text passages to languages other than the
 document language to mark foreign language usage or to suspend spell
 checking.</p>
-<p><em>noveltree</em> supports this language handling for <em>OpenOffice/LibreOffice</em>
-interoperability.</p>
-<section id="document-overall">
-<h3>Document overall<a class="headerlink" href="#document-overall" title="Link to this heading"></a></h3>
-<p>The project language (Language code acc. to ISO 639-1 and country code
+<dl class="simple">
+<dt>Document overall</dt><dd><p>The project language (Language code acc. to ISO 639-1 and country code
 acc. to ISO 3166-2) can be set in the <strong>Book</strong> settings (right pane)
 under <strong>Document language</strong>.</p>
-</section>
-<section id="text-passages-in-sections">
-<h3>Text passages in sections<a class="headerlink" href="#text-passages-in-sections" title="Link to this heading"></a></h3>
-<p>Paragraph-wise or inline text markup for other languages is supported by
+</dd>
+<dt>Text passages in sections</dt><dd><p>Paragraph-wise or inline text markup for other languages is supported by
 <em>noveltree</em>.</p>
-</section>
+</dd>
+</dl>
 </section>
 </section>
 

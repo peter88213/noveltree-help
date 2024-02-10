@@ -4,8 +4,9 @@ noveltree_editor
 
 **Online help**
 
-This page refers to the latest `noveltree_editor <https://peter88213.github.io/noveltree_editor/>`_ release. You can open it with
-**Help > Editor plugin Online help**.
+This page refers to the latest `noveltree_editor 
+<https://peter88213.github.io/noveltree_editor/>`__ release. 
+You can open it with **Help > Editor plugin Online help**.
 
 
 Launch the section editor

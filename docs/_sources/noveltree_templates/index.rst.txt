@@ -4,8 +4,9 @@ noveltree_templates
 
 **Online help**
 
-This page refers to the latest `noveltree_templates <https://peter88213.github.io/noveltree_templates/>`_ release. You can open it with
-**Help > Templates plugin Online help**.
+This page refers to the latest `noveltree_templates 
+<https://peter88213.github.io/noveltree_templates/>`__ release. 
+You can open it with **Help > Templates plugin Online help**.
 
 
 Command reference

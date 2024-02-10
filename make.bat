@@ -25,6 +25,8 @@ if errorlevel 9009 (
 
 if "%1" == "" goto help
 
+rmdir /s %BUILDDIR%
+
 REM GitHub opotion for Windows, see: https://github.com/sphinx-doc/sphinx/issues/3382
 
 if "%1" == "github" (

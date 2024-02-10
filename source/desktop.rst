@@ -16,8 +16,9 @@ Project tree
 The project tree in the left pane shows the organization of the project.
 
 -  The tree elements are color-coded according to the section type (see
-   `Basic concepts <basic_concepts.html#part-chapter-section-types>`__). *Normal* type sections are
-   highlighted according to the selected coloring mode (see *Optionss* in the `View menu <view_menu.html#coloring-mode>`__).
+   `Basic concepts <basic_concepts.html#part-chapter-section-types>`__). 
+   *Normal* type sections are highlighted according to the selected coloring 
+   mode (see *Optionss* in the `View menu <view_menu.html#coloring-mode>`__).
 -  The order of the columns can be changed (see *Options* in
    the `View menu <view_menu.html#columns>`__).
 -  Right-clicking on a tree element opens a `context

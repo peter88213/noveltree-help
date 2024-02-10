@@ -4,8 +4,9 @@ noveltree_timeline
 
 **Online help**
 
-This page refers to the latest `noveltree_timeline <https://peter88213.github.io/noveltree_timeline/>`_ release. You can open it with
-**Help > Timeline plugin Online help**.
+This page refers to the latest `noveltree_timeline 
+<https://peter88213.github.io/noveltree_timeline/>`__ release. 
+You can open it with **Help > Timeline plugin Online help**.
 
 
 Command reference

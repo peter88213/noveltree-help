@@ -4,8 +4,9 @@ noveltree_updater
 
 **Online help**
 
-This page refers to the latest `noveltree_updater <https://peter88213.github.io/noveltree_updater/>`_ release. You can open it with
-**Help > Update checker Online help**.
+This page refers to the latest `noveltree_updater 
+<https://peter88213.github.io/noveltree_updater/>`__ release. 
+You can open it with **Help > Update checker Online help**.
 
 
 Start the update checker

@@ -19,49 +19,45 @@ New
 
 
 Empty project
-~~~~~~~~~~~~~
-
--  This will close the current project and create a blank project.
--  A file select dialog asks for the new project’s file name (noveltree
-   v1.4+). If you cancel the dialog, you can select the file name later
-   when saving the project.
+   -  This will close the current project and create a blank project.
+   -  A file select dialog asks for the new project’s file name (noveltree
+      v1.4+). If you cancel the dialog, you can select the file name later
+      when saving the project.
 
 
 Create from ODT…
-~~~~~~~~~~~~~~~~
-
--  This will close the current project and open a file dialog asking for
-   an ODT document to create the new projec from.
--  The newly created project is saved automatically in the same
-   directory as the ODT document, using its file name and the extension
-   *.novx*.
--  If a project with the same file name as the ODT document already
-   exists, no new project will be created.
--  If you select a previously exported document belonging to an existing
-   project, this project will be updated and loaded.
--  The ODT document can either be a **work in progress** i.e. a regular
-   novel manuscript with chapter headings and section contents, or an
-   **outline**, containing the chapter and section structure with titles
-   and descriptions.
-
-.. important::
-
-	How to set up a work in progress for import
-		A work in progress has no third level heading.
-		
-		-  *Heading 1* → New chapter title (beginning a new section).
-		-  *Heading 2* → New chapter title.
-		-  ``* * *`` → Section divider (not needed for the first section in a
-		   chapter).
-		-  All other text is considered section content.
-	
-	How to set up an outline for import
-		An outline has at least one third level heading.
-		
-		-  *Heading 1* → New chapter title (beginning a new section).
-		-  *Heading 2* → New chapter title.
-		-  *Heading 3* → New section title.
-		-  All other text is considered to be chapter/section description.
+   -  This will close the current project and open a file dialog asking for
+      an ODT document to create the new projec from.
+   -  The newly created project is saved automatically in the same
+      directory as the ODT document, using its file name and the extension
+      *.novx*.
+   -  If a project with the same file name as the ODT document already
+      exists, no new project will be created.
+   -  If you select a previously exported document belonging to an existing
+      project, this project will be updated and loaded.
+   -  The ODT document can either be a **work in progress** i.e. a regular
+      novel manuscript with chapter headings and section contents, or an
+      **outline**, containing the chapter and section structure with titles
+      and descriptions.
+   
+   .. important::
+   
+   	How to set up a work in progress for import
+   		A work in progress has no third level heading.
+   		
+   		-  *Heading 1* → New chapter title (beginning a new section).
+   		-  *Heading 2* → New chapter title.
+   		-  ``* * *`` → Section divider (not needed for the first section in a
+   		   chapter).
+   		-  All other text is considered section content.
+   	
+   	How to set up an outline for import
+   		An outline has at least one third level heading.
+   		
+   		-  *Heading 1* → New chapter title (beginning a new section).
+   		-  *Heading 2* → New chapter title.
+   		-  *Heading 3* → New section title.
+   		-  All other text is considered to be chapter/section description.
 
 
 Open…
