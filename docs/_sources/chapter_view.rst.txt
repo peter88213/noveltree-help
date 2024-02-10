@@ -15,12 +15,17 @@ Title and description
 .. figure:: _images/chapterView01.png
    :alt: Screenshot
 
-Title and description are displayed in an editable "index card". 
+Title and description are displayed in an editable "index card".
 
-The editing of the title can be completed by pressing the ``Enter`` key. 
-Changes to the description are applied when the mouse is clicked 
-anywhere outside the text input field. 
+The editing of the title can be completed by pressing the ``Enter`` key.
+Changes to the description are applied when the mouse is clicked
+anywhere outside the text input field.
 
+
+_`Do not auto-number` this chapter/part
+   If this checkbox is ticked, the title of the selected chapter will
+   remain untouched when the chapters are
+   `auto-numbered <book_view.html#auto-numbering>`_.
 
 Navigation buttons
 ------------------

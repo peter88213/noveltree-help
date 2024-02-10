@@ -39,7 +39,7 @@ Create from ODT…
       novel manuscript with chapter headings and section contents, or an
       **outline**, containing the chapter and section structure with titles
       and descriptions.
-   
+
    .. important::
    
    	How to set up a work in progress for import
@@ -101,7 +101,8 @@ You can refresh the tree with **File > Refresh tree** or **F5**.
 
 -  “Normal” sections that have been moved to an “Unused” chapter are
    made “Unused”.
--  Parts and chapters are renumbered according to the settings.
+-  Parts and chapters are renumbered according to the `Auto numbering
+   settings <book_view.html#auto-numbering>`_.
 -  The “Trash” chapter is moved to the end of the book, if necessary.
 
 
