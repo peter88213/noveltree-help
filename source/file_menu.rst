@@ -149,8 +149,13 @@ Copy style sheet
 **Provide a css style sheet in the project folder**
 
 -  You can copy the style sheet *novx.css* into the current project
-   folder with **File > Copy style sheet** . This allows you to view the
+   folder with **File > Copy style sheet**. This allows you to view the
    *.novx* project file with a web browser.
+
+.. figure:: _images/fileMenu01.png
+   :alt: Edge browser screenshot
+
+   Edge browser screenshot
 
 .. hint::
 
