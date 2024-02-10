@@ -24,6 +24,8 @@ current project.
    document will be deleted after re-import. This may help to avoid
    confusion about changes made with *noveltree* and
    OpenOffice/LibreOffice.
--  **Note:** Documents with split sections are always automatically
-   discarded after re-import.
+   
+   .. note::
+   	Documents with split sections are always automatically
+   	discarded after re-import.
 

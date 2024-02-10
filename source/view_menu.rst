@@ -153,13 +153,18 @@ Coloring mode
 **Set criteria according to which normal sections are colored in the
 tree**
 
--  **None** - Normal sections are black on white by default.
--  **Status** - Normal sections are colored according to their
-   completion status (*Outline*, *Draft*, *1st Edit*, *2nd Edit*, or
-   *Done*).
--  **Work phase** - Normal sections are highlighted if their completion
-   status is behind the work phase defined in the project properties.
+None
+   Normal sections are black on white by default.
 
+Status
+   Normal sections are colored according to their completion status 
+   (*Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*).
+
+Work phase
+   Normal sections are highlighted if their completion status 
+   is behind the work phase defined in `the book properties`_.
+
+.. _the book properties: book_view.html#writing-pogress
 
 Large toolbar icons
 ~~~~~~~~~~~~~~~~~~~
@@ -167,8 +172,9 @@ Large toolbar icons
 By default, the icon size is 16x16 pixels. If *Large toolbar icons* is
 checked, 24x24 icons are used after the next program startup.
 
-**Note:** This applies not only to the toolbar, but also to all other
-icons that decorate the application’s control elements.
+.. note::
+   This applies not only to the toolbar, but also to all other
+   icons that decorate the application’s control elements.
 
 
 Columns

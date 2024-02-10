@@ -9,20 +9,20 @@ Add
 
 **Add a new section**
 
-| You can add a section to the tree with **Section > Add**. - The new
-  section is placed at the next free position after the selection, if
-  possible. - Otherwise, no new section is generated.
-| - The new section has an auto-generated title. You can change it in
+You can add a section to the tree with **Section > Add**. 
+
+- The new section is placed at the next free position after the selection, if
+  possible. 
+- Otherwise, no new section is generated.
+- The new section has an auto-generated title. You can change it in
   the right pane.
 
 Properties of a new section
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  *Normal* type
--  *Outline* completion status
--  No viewpoint character assigned
--  No arc or tag assigned
--  No date/time set
+   -  *Normal* type
+   -  *Outline* completion status
+   -  No viewpoint character assigned
+   -  No arc or tag assigned
+   -  No date/time set
 
 
 Set Type
@@ -33,9 +33,8 @@ Set Type
 This can be *Normal* or *Unused*.
 
 Type change for multiple sections
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Either select multiple sections, or select a chapter.
+   - Either select multiple sections, or 
+   - select a chapter.
 
 
 Set Status
@@ -46,10 +45,8 @@ Set Status
 This can be *Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*.
 
 Status change for multiple sections
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  Either select multiple sections, or
--  select a parent node (chapter or Book)
+   -  Either select multiple sections, or
+   -  select a parent node (chapter or Book)
 
 
 Export section descriptions for editing

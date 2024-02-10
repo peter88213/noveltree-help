@@ -3,8 +3,9 @@ Tools menu
 
 **Miscellaneous functions**
 
-**Note:** The *Tools* menu can be extended by plugins to add more
-features.
+.. note:: 
+   The *Tools* menu can be extended by plugins to add more
+   features.
 
 
 Plugin manager
@@ -31,39 +32,30 @@ information, consisting of two numbers that are separated by points.
 ``<major version number>.<minor version number>``
 
 The rule for compatibility
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  The plugin’s *noveltree API* major version number must be the same as
-   *noveltree’s* major version number.
--  The plugin’s *noveltree API* minor version number must be less than
-   or equal to *noveltree’s* minor version number.
+   -  The plugin’s *noveltree API* major version number must be the same as
+      *noveltree’s* major version number.
+   -  The plugin’s *noveltree API* minor version number must be less than
+      or equal to *noveltree’s* minor version number.
 
 Fix incompatibilities
-^^^^^^^^^^^^^^^^^^^^^
+   -  If the plugin’s *noveltree API* major version number is greater than
+      *noveltree’s* major version number, *noveltree* needs to be updated.
+   -  If the plugin’s *noveltree API* major version number is less than
+      *noveltree’s* major version number, the plugin needs to be updated.
+   -  If the plugin’s *noveltree API* minor version number is greater than
+      *noveltree’s* minor version number, *noveltree* needs to be updated.
 
--  If the plugin’s *noveltree API* major version number is greater than
-   *noveltree’s* major version number, *noveltree* needs to be updated.
--  If the plugin’s *noveltree API* major version number is less than
-   *noveltree’s* major version number, the plugin needs to be updated.
--  If the plugin’s *noveltree API* minor version number is greater than
-   *noveltree’s* minor version number, *noveltree* needs to be updated.
+How to update a plugin
+~~~~~~~~~~~~~~~~~~~~~~
 
-Update plugins
-^^^^^^^^^^^^^^
+1. Select the plugin you want to update. If the **Home page** button is
+   activated, you can click on it, and your system browser opens the plugin
+   home page. Otherwise, you have to know the source of the plugin yourself.
+2. Go to the plugin home page and download the latest release. Install it
+   according to the instructions.
 
-Select the plugin you want to update. If the “Home page” button is
-activated, you can click on it, and your system browser opens the plugin
-home page. Otherwise, you have to know the source of the plugin
-yourself.
-
-Go to the plugin home page and download the latest release. Install it
-according to the instructions.
-
-If the plugin is a *noveltree* add-on, reinstall it from your latest
-*noveltree* release files.
-
-Uninstall a plugin
-~~~~~~~~~~~~~~~~~~
+How to uninstall a plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Select the plugin, and click on the **Delete** button.
 

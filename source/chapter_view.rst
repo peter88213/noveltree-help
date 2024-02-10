@@ -17,7 +17,7 @@ Title and description
 
 Title and description are displayed in an editable "index card". 
 
-The title can be completed by pressing the ``Enter`` key. 
+The editing of the title can be completed by pressing the ``Enter`` key. 
 Changes to the description are applied when the mouse is clicked 
 anywhere outside the text input field. 
 
@@ -26,13 +26,9 @@ Navigation buttons
 ------------------
 
 Chapter view
-~~~~~~~~~~~~
-
-- **Previous** moves the selection to the previous chapter in the tree.
-- **Next** moves the selection to the next chapter in the tree.
+	- **Previous** moves the selection to the previous chapter in the tree.
+	- **Next** moves the selection to the next chapter in the tree.
 
 Part view
-~~~~~~~~~
-
-- **Previous** moves the selection to the previous part in the tree.
-- **Next** moves the selection to the next part in the tree.
+	- **Previous** moves the selection to the previous part in the tree.
+	- **Next** moves the selection to the next part in the tree.

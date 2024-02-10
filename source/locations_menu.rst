@@ -27,8 +27,9 @@ This will import a selection of locations from another project. First
 you select an XML file containing the location data. Then you select the
 locations you want to add to the current project.
 
-To create an XML location data file for the current project, use
-**Export > Characters/locations/items data files**.
+.. hint::
+   To create an XML location data file for the current project, use
+   **Export > Characters/locations/items data files**.
 
 
 Export location descriptions for editing

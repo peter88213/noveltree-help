@@ -14,7 +14,7 @@ Title and content
 
 Title and content are displayed in an editable "index card". 
 
-The title can be completed by pressing the ``Enter`` key. 
+The editing of the title can be completed by pressing the ``Enter`` key. 
 Changes to the content are applied when the mouse is clicked 
 anywhere outside the text input field. 
 

@@ -13,8 +13,9 @@ New
 -  You can create a new project with **File > New**. This will open a
    submenu.
 
-**Note:** The submenu can be extended by plugins to add more file types
-from which a *noveltree* project can be created.
+.. note:: 
+	The submenu can be extended by plugins to add more file types
+	from which a *noveltree* project can be created.
 
 
 Empty project
@@ -43,26 +44,24 @@ Create from ODT…
    **outline**, containing the chapter and section structure with titles
    and descriptions.
 
-How to set up a work in progress for import
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. important::
 
-A work in progress has no third level heading.
-
--  *Heading 1* → New chapter title (beginning a new section).
--  *Heading 2* → New chapter title.
--  ``* * *`` → Section divider (not needed for the first section in a
-   chapter).
--  All other text is considered section content.
-
-How to set up an outline for import
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-An outline has at least one third level heading.
-
--  *Heading 1* → New chapter title (beginning a new section).
--  *Heading 2* → New chapter title.
--  *Heading 3* → New section title.
--  All other text is considered to be chapter/section description.
+	How to set up a work in progress for import
+		A work in progress has no third level heading.
+		
+		-  *Heading 1* → New chapter title (beginning a new section).
+		-  *Heading 2* → New chapter title.
+		-  ``* * *`` → Section divider (not needed for the first section in a
+		   chapter).
+		-  All other text is considered section content.
+	
+	How to set up an outline for import
+		An outline has at least one third level heading.
+		
+		-  *Heading 1* → New chapter title (beginning a new section).
+		-  *Heading 2* → New chapter title.
+		-  *Heading 3* → New section title.
+		-  All other text is considered to be chapter/section description.
 
 
 Open…
@@ -86,6 +85,7 @@ Reload
 
 
 Restore backup
+--------------
 
 **Restore the latest backup file**
 
@@ -156,10 +156,12 @@ Copy style sheet
    folder with **File > Copy style sheet** . This allows you to view the
    *.novx* project file with a web browser.
 
-**Note:** Depending on your web browser and your operating system, the
-*content type* resp. *MIME type* of *.novx* files must be registered as
-*“text/xml”*. Under Windows, yo can do this by running the
-``<home>\.noveltree\add_noveltree.reg`` script.
+.. hint::
+
+   Depending on your web browser and your operating system, the
+   *content type* resp. *MIME type* of *.novx* files must be registered as
+   *“text/xml”*. Under Windows, yo can do this by running the
+   ``<home>\.noveltree\add_noveltree.reg`` script.
 
 
 Discard manuscript

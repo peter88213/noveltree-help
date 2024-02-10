@@ -45,7 +45,7 @@ Document language
 Expand or collapse this frame by clicking on the label. 
 
 .. figure:: _images/bookView02.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
 
 - Language code acc. to ISO 639-1 
 - Country code acc. to ISO 3166-2
@@ -53,20 +53,20 @@ Expand or collapse this frame by clicking on the label.
 This information controls the spelling checker for export documents.
 
 .. figure:: _images/bookView10.png
-   :alt: Screenshot
+   :alt: LibreOffice Writer screenshot
 
    LibreOffice Writer screenshot
 
 If not set, the System locale setting will be used as default.
 
-.. |screen01| image:: _images/bookView11.png
-   :alt: Screenshot
 
 .. hint::
    You can also set or change the document language with LibreOffice, then it will be applied on import. 
-   |screen01|
 
-
+	.. figure:: _images/bookView11.png
+	   :alt: LibreOffice Writer screenshot
+	   
+	   LibreOffice Writer screenshot
 
 
 Auto numbering
@@ -75,7 +75,7 @@ Auto numbering
 Expand or collapse this frame by clicking on the label. 
 
 .. figure:: _images/bookView03.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
 
 Prefix and suffix entries can be completed by pressing the ``Enter`` key. 
 
@@ -90,7 +90,7 @@ Renamings
 Expand or collapse this frame by clicking on the label. 
 
 .. figure:: _images/bookView04.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
 
 
 Narrative time
@@ -99,7 +99,7 @@ Narrative time
 Expand or collapse this frame by clicking on the label. 
 
 .. figure:: _images/bookView05.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
 
 
 Writing pogress
@@ -108,7 +108,7 @@ Writing pogress
 Expand or collapse this frame by clicking on the label. 
 
 .. figure:: _images/bookView06.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
 
 
 
@@ -119,5 +119,13 @@ A cover thumbnail is displayed with the book properties if you
 provide a PNG image file with the project name along with the *.novx*
 file. The recommended image width is 100 to 200 pixels.
 
+.. figure:: _images/bookView12.png
+   :alt: Windows 10 Explorer screenshot
+   
+   Windows 10 Explorer screenshot
+   
 .. figure:: _images/bookView07.png
-   :alt: Screenshot
+   :alt: noveltree screenshot
+
+   noveltree screenshot
+

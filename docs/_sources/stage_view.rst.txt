@@ -13,7 +13,7 @@ Title and description
 
 Title and description are displayed in an editable "index card". 
 
-The title can be completed by pressing the ``Enter`` key. 
+The editing of the title can be completed by pressing the ``Enter`` key. 
 Changes to the description are applied when the mouse is clicked 
 anywhere outside the text input field. 
 

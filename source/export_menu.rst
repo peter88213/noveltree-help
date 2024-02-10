@@ -25,7 +25,9 @@ File name suffix is ``_manuscript_tmp``.
    -  ``###`` → Section divider. Optionally, you can append the section
       title to the section divider. You can also add a description,
       separated by ``|``.
-   -  **Note:** Documents with split sections are automatically
+   
+   .. note:: 
+      Documents with split sections are automatically
       discarded after the *noveltree* project is updated.
 
 -  Text markup: Bold and italics are supported. Other highlighting such
@@ -57,7 +59,9 @@ text document (odt) with visible section markers. File name suffix is
    -  ``###`` → Section divider. Optionally, you can append the section
       title to the section divider. You can also add a description,
       separated by ``|``.
-   -  **Note:** Documents with split sections are automatically
+      
+   .. note:: 
+      Documents with split sections are automatically
       discarded after the *noveltree* project is updated.
 
 -  Text markup: Bold and italics are supported. Other highlighting such

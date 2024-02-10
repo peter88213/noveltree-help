@@ -56,15 +56,12 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">File menu</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#new">New</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#empty-project">Empty project</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#create-from-odt">Create from ODT…</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#how-to-set-up-a-work-in-progress-for-import">How to set up a work in progress for import</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#how-to-set-up-an-outline-for-import">How to set up an outline for import</a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="#create-from-odt">Create from ODT…</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#open">Open…</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reload">Reload</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#restore-backup">Restore backup</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#refresh-tree">Refresh tree</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lock">Lock</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#unlock">Unlock</a></li>
@@ -149,8 +146,11 @@
 <li><p>You can create a new project with <strong>File &gt; New</strong>. This will open a
 submenu.</p></li>
 </ul>
-<p><strong>Note:</strong> The submenu can be extended by plugins to add more file types
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The submenu can be extended by plugins to add more file types
 from which a <em>noveltree</em> project can be created.</p>
+</div>
 <section id="empty-project">
 <h3>Empty project<a class="headerlink" href="#empty-project" title="Link to this heading"></a></h3>
 <ul class="simple">
@@ -177,9 +177,10 @@ novel manuscript with chapter headings and section contents, or an
 <strong>outline</strong>, containing the chapter and section structure with titles
 and descriptions.</p></li>
 </ul>
-<section id="how-to-set-up-a-work-in-progress-for-import">
-<h4>How to set up a work in progress for import<a class="headerlink" href="#how-to-set-up-a-work-in-progress-for-import" title="Link to this heading"></a></h4>
-<p>A work in progress has no third level heading.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<dl class="simple">
+<dt>How to set up a work in progress for import</dt><dd><p>A work in progress has no third level heading.</p>
 <ul class="simple">
 <li><p><em>Heading 1</em> → New chapter title (beginning a new section).</p></li>
 <li><p><em>Heading 2</em> → New chapter title.</p></li>
@@ -187,17 +188,17 @@ and descriptions.</p></li>
 chapter).</p></li>
 <li><p>All other text is considered section content.</p></li>
 </ul>
-</section>
-<section id="how-to-set-up-an-outline-for-import">
-<h4>How to set up an outline for import<a class="headerlink" href="#how-to-set-up-an-outline-for-import" title="Link to this heading"></a></h4>
-<p>An outline has at least one third level heading.</p>
+</dd>
+<dt>How to set up an outline for import</dt><dd><p>An outline has at least one third level heading.</p>
 <ul class="simple">
 <li><p><em>Heading 1</em> → New chapter title (beginning a new section).</p></li>
 <li><p><em>Heading 2</em> → New chapter title.</p></li>
 <li><p><em>Heading 3</em> → New section title.</p></li>
 <li><p>All other text is considered to be chapter/section description.</p></li>
 </ul>
-</section>
+</dd>
+</dl>
+</div>
 </section>
 </section>
 <section id="open">
@@ -217,7 +218,9 @@ it with <strong>File &gt; Open</strong> or <strong>Ctrl-O</strong>.</p></li>
 <li><p>If the project has changed on disk since last opened, you will get a
 warning.</p></li>
 </ul>
-<p>Restore backup</p>
+</section>
+<section id="restore-backup">
+<h2>Restore backup<a class="headerlink" href="#restore-backup" title="Link to this heading"></a></h2>
 <p><strong>Restore the latest backup file</strong></p>
 <ul class="simple">
 <li><p>You can restore the latest backup file with <strong>File &gt; Restore backup</strong>
@@ -280,10 +283,13 @@ consider locking it before.</p></li>
 folder with <strong>File &gt; Copy style sheet</strong> . This allows you to view the
 <em>.novx</em> project file with a web browser.</p></li>
 </ul>
-<p><strong>Note:</strong> Depending on your web browser and your operating system, the
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Depending on your web browser and your operating system, the
 <em>content type</em> resp. <em>MIME type</em> of <em>.novx</em> files must be registered as
 <em>“text/xml”</em>. Under Windows, yo can do this by running the
 <code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.noveltree\add_noveltree.reg</span></code> script.</p>
+</div>
 </section>
 <section id="discard-manuscript">
 <h2>Discard manuscript<a class="headerlink" href="#discard-manuscript" title="Link to this heading"></a></h2>

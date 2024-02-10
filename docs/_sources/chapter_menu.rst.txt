@@ -10,11 +10,12 @@ Add
 
 **Add a new chapter**
 
-You can add a chapter to the tree with **Chapter > Add**. - The new
-chapter is placed at the next free position after the selection, if
-possible. - Otherwise, the new chapter is placed at the end of the
-“Book” branch. - The new chapter has an auto-generated title. You can
-change it in the right pane.
+You can add a chapter to the tree with **Chapter > Add**. 
+
+-  The new chapter is placed at the next free position after the selection, if
+   possible. - Otherwise, the new chapter is placed at the end of the
+   “Book” branch. 
+-  The new chapter has an auto-generated title. You can change it in the right pane.
 
 
 Set Type
@@ -23,8 +24,8 @@ Set Type
 Sets the `type <basic_concepts.html#part-chapter-section-types>`__ of the selected chapters. This can be
 *Normal* or *Unused*.
 
--  Setting the type of a chapter to *Unused* will also make its sections
-   *Unused*.
+.. hint::
+   Setting the type of a chapter to *Unused* will also make its sections *Unused*.
 
 
 Change Level

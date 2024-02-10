@@ -36,8 +36,9 @@ This will import a selection of characters from another project. First
 you select an XML file containing the character data. Then you select
 the characters you want to add to the current project.
 
-To create an XML character data file for the current project, use
-**Export > Characters/locations/items data files**.
+.. hint::
+   To create an XML character data file for the current project, use
+   **Export > Characters/locations/items data files**.
 
 
 Export character descriptions for editing
