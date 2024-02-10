@@ -25,18 +25,19 @@ if errorlevel 9009 (
 
 if "%1" == "" goto help
 
-rmdir /s %BUILDDIR%
 
 REM GitHub opotion for Windows, see: https://github.com/sphinx-doc/sphinx/issues/3382
 
 if "%1" == "github" (
+    rmdir /s /q %BUILDDIR%
     %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
-    robocopy %BUILDDIR%/html docs /E 
+    robocopy %BUILDDIR%/html docs /E > nul
     echo.Generated files copied to docs
     type nul > docs\.nojekyll
     goto end
 )
 
+rmdir /s %BUILDDIR%
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
