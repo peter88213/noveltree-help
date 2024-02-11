@@ -46,18 +46,21 @@ Project tree operation
 Browse the tree
 ^^^^^^^^^^^^^^^
 
--  **F2** selects a node back in the tree browsing history.
--  **F3** selects a node forward in the tree browsing history.
+-  |Go back| selects a node back in the tree browsing history.
+-  |Go forward| selects a node forward in the tree browsing history.
 
-On Windows, the “Forward” and “Back” mouse buttons (if any) may also
-work.
+.. hint::
+   On Windows, the “Forward” and “Back” mouse buttons (if any) 
+   may also work.
 
 
 Move parts, chapters, and sections
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Drag and drop while pressing the **Alt** key. Be aware, there is no
-“Undo” feature.
+Drag and drop while pressing the **Alt** key.
+
+.. caution::
+   Be aware, there is no “Undo” feature.
 
 
 Delete parts, chapters, and sections
@@ -80,7 +83,7 @@ The **Text viewer** in the middle pane shows the part/chapter/section
 contents with their titles as headings.
 
 -  You can open or close the Text viewer with **View > Toggle Text
-   viewer** or **Ctrl-T**.
+   viewer**, or **Ctrl-T**, or clicking on |Toggle Text viewer|.
 -  On opening, the windows shows the text, where the tree is selected.
 -  When changing the tree selection, the text moves along.
 -  However, the text can be scrolled independently with the verical
@@ -102,9 +105,24 @@ The **Properties** in the right pane show properties/metadata of the
 element selected in the project tree.
 
 -  You can open or close the element properties window with **View >
-   Toggle Properties** or **Ctrl-Alt-T**.
+   Toggle Properties** or **Ctrl-Alt-T**, or clicking on |Toggle Properties|.
 -  On opening, the windows shows the editable properties of the selected
    element.
 -  You can detach or dock the element properties window with **View >
    Detach/Dock Properties** or **Ctrl-Alt-D**.
 -  On closing the detached window, the properties are docked again.
+
+On large screens, you can arrange noveltree and LibreOffice with detached windows.
+
+.. figure:: _images/full_desktop.png
+   :alt: LibreOffice and noveltree screen arrangement
+   
+   Example: Arranging LibreOffice (middle) with detached Navigator (upper left) 
+   and noveltree (lower left) with detached Properties (right) 
+
+
+.. |Go back| image:: _images/goBack.png
+.. |Go forward| image:: _images/goForward.png
+.. |Toggle Text viewer| image:: _images/viewer.png
+.. |Toggle Properties| image:: _images/properties.png
+
