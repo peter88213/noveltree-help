@@ -16,8 +16,8 @@ Project tree
 The project tree in the left pane shows the organization of the project.
 
 -  The tree elements are color-coded according to the section type (see
-   `Basic concepts <basic_concepts.html#part-chapter-section-types>`__). 
-   *Normal* type sections are highlighted according to the selected coloring 
+   `Basic concepts <basic_concepts.html#part-chapter-section-types>`__).
+   *Normal* type sections are highlighted according to the selected coloring
    mode (see *Optionss* in the `View menu <view_menu.html#coloring-mode>`__).
 -  The order of the columns can be changed (see *Options* in
    the `View menu <view_menu.html#columns>`__).
@@ -73,13 +73,13 @@ Select item and hit the **Del** key.
 -  When deleting the “Trash” chapter, all its sections are deleted.
 
 
-Content viewer
---------------
+Text viewer
+-----------
 
-The **Content viewer** in the middle pane shows the part/chapter/section
+The **Text viewer** in the middle pane shows the part/chapter/section
 contents with their titles as headings.
 
--  You can open or close the content viewer with **View > Toggle Text
+-  You can open or close the Text viewer with **View > Toggle Text
    viewer** or **Ctrl-T**.
 -  On opening, the windows shows the text, where the tree is selected.
 -  When changing the tree selection, the text moves along.

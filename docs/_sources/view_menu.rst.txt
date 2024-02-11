@@ -103,9 +103,9 @@ Show Project notes
 Toggle Text viewer
 ------------------
 
-**Show/hide the whole novel**
+**Show/hide the novel text**
 
--  You can open or close a text window, showing part/chapter/section
+-  You can open or close the `text viewer <desktop.html>`_ window, showing part/chapter/section
    titles and section content, with **View > Toggle Text viewer** or
    **Ctrl-T**.
 -  On opening, the windows shows the text, where the tree is selected.
@@ -157,12 +157,12 @@ None
    Normal sections are black on white by default.
 
 Status
-   Normal sections are colored according to their completion status 
+   Normal sections are colored according to their completion status
    (*Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*).
 
 Work phase
-   Normal sections are highlighted if their completion status 
-   is behind the work phase defined in the `Book properties 
+   Normal sections are highlighted if their completion status
+   is behind the work phase defined in the `Book properties
    <book_view.html#writing-pogress>`__.
 
 Large toolbar icons
