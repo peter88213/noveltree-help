@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'noveltree-help'
+project = 'noveltree Online Help'
 copyright = '2024, peter88213'
 author = 'peter88213'
-release = '0.2'
+release = '0.3'
 # html_logo = '_images/nLogo64.png'
 html_title = 'noveltree help'
 html_favicon = '_images/nLogo32.ico'
