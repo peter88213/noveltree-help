@@ -2,7 +2,7 @@ Arc properties
 ==============
 
 The Arc properties view opens in the right pane when you
-select an arc in the tree.
+select an `arc <plotting.html#defining-arcs>`_ in the tree.
 
 .. figure:: _images/arcView01.png
    :alt: noveltree screenshot
