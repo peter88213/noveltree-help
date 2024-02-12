@@ -113,6 +113,7 @@ Expand or collapse this frame by clicking on the label.
    :alt: noveltree screenshot
 
 
+
 Narrative time
 --------------
 
@@ -121,6 +122,13 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/bookView05.png
    :alt: noveltree screenshot
 
+Reference date
+   Format: *YYYY-MM-DD*, according to ISO 8601.
+
+Convert dates to days
+
+
+Convert days to dates
 
 Writing pogress
 ---------------
