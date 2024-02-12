@@ -1,30 +1,30 @@
 Stage properties
 ================
 
-The Stage properties view opens in the right pane when you 
+The Stage properties view opens in the right pane when you
 select a stage in the tree.
 
-
-Title and description
----------------------
 
 .. figure:: _images/stageView01.png
    :alt: Screenshot
 
-Title and description are displayed in an editable "index card". 
+Title and description
+---------------------
 
-The editing of the title can be completed by pressing the ``Enter`` key. 
-Changes to the description are applied when the mouse is clicked 
-anywhere outside the text input field. 
+Title and description are displayed in an editable "index card".
+
+The editing of the title can be completed by pressing the ``Enter`` key.
+Changes to the description are applied when the mouse is clicked
+anywhere outside the text input field.
 
 
 "Sticky note"
 -------------
 
-The yellow text area is for notes. Changes are applied 
+The yellow text area is for notes. Changes are applied
 when the mouse is clicked anywhere outside the text input field.
 
-When the "sticky note" of a stage contains text, an "N" is 
+When the "sticky note" of a stage contains text, an "N" is
 displayed in the tree view as a reminder.
 
 .. note::

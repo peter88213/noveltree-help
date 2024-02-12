@@ -1,11 +1,21 @@
+|noveltree| `noveltree home page <https://peter88213.github.io/noveltree/>`__
+
+|github| `peter88213 <https://github.com/peter88213/>`__
+
+.. |noveltree| image:: ../_images/nLogo24.png
+   :target: https://peter88213.github.io/noveltree/
+
+.. |github| image:: ../_images/github.png
+   :target: https://github.com/peter88213/
+
 ================
 noveltree_editor
 ================
 
 **Online help**
 
-This page refers to the latest `noveltree_editor 
-<https://peter88213.github.io/noveltree_editor/>`__ release. 
+This page refers to the latest `noveltree_editor
+<https://peter88213.github.io/noveltree_editor/>`__ release.
 You can open it with **Help > Editor plugin Online help**.
 
 
@@ -49,16 +59,16 @@ text:
 -  *Citation* (paragraph visually distinguished from body text).
 
 -  **Ctrl-I** places "emphasized" markup around the selected text or at the
-   cursor, like so: 
-   
+   cursor, like so:
+
    :html:`<em>Example</em>`
-   
+
    If the selection is already emphasized, the command removes the markup.
 -  **Ctrl-B** places "strong" markup around the selected text or at the
-   cursor, like so: 
-   
+   cursor, like so:
+
    :html:`<strong>Example</strong>`
-   
+
    If the selection is already strong, the command removes the markup.
 
 -  **Ctrl-M** removes “emphasized” and “strong” markup from the selection.
@@ -125,5 +135,5 @@ Apply changes
 Exit
 ----
 
--  You can exit by clicking on **Exit**, by closing the window, or with **Ctrl-Q**. 
+-  You can exit by clicking on **Exit**, by closing the window, or with **Ctrl-Q**.
 -  When exiting the program, you will be asked for applying changes.

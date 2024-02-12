@@ -48,3 +48,13 @@ html_theme_options = {
 }
 '''
 
+# Add any extra paths that contain custom files (such as robots.txt or
+# .htaccess) here, relative to this directory. These files are copied
+# directly to the root of the documentation.
+#
+html_extra_path = ['_custom_files']
+
+# If true, links to the reST sources are added to the pages.
+#
+html_show_sourcelink = False
+

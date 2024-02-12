@@ -1,11 +1,21 @@
+|noveltree| `noveltree home page <https://peter88213.github.io/noveltree/>`__
+
+|github| `peter88213 <https://github.com/peter88213/>`__
+
+.. |noveltree| image:: ../_images/nLogo24.png
+   :target: https://peter88213.github.io/noveltree/
+
+.. |github| image:: ../_images/github.png
+   :target: https://github.com/peter88213/
+
 ====================
 noveltree_collection
 ====================
 
 **Online help**
 
-This page refers to the latest `noveltree_collection 
-<https://peter88213.github.io/noveltree_collection/>`__ release. 
+This page refers to the latest `noveltree_collection
+<https://peter88213.github.io/noveltree_collection/>`__ release.
 You can open it with **Help > Collection plugin Online help**.
 
 

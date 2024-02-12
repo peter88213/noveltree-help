@@ -8,12 +8,12 @@ The Book properties view opens in the right pane when you
 select "Book" in the tree, or when you click on the |ico01|
 toolbar icon. It is the initial view after opening a *noveltree* project.
 
+.. figure:: _images/bookView01.png
+   :alt: noveltree screenshot
+
 
 Title, description, and author
 ------------------------------
-
-.. figure:: _images/bookView01.png
-   :alt: Screenshot
 
 Title and description are displayed in an editable "index card".
 

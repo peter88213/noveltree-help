@@ -10,11 +10,11 @@ You can edit the properties of the selected chapter or part.
    Level** entry in the context menu, the **Part** menu, or the **Chapter** 
    menu.
    
-Title and description
----------------------
-
 .. figure:: _images/chapterView01.png
    :alt: Screenshot
+
+Title and description
+---------------------
 
 Title and description are displayed in an editable "index card".
 

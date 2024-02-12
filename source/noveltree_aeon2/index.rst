@@ -1,11 +1,21 @@
+|noveltree| `noveltree home page <https://peter88213.github.io/noveltree/>`__
+
+|github| `peter88213 <https://github.com/peter88213/>`__
+
+.. |noveltree| image:: ../_images/nLogo24.png
+   :target: https://peter88213.github.io/noveltree/
+
+.. |github| image:: ../_images/github.png
+   :target: https://github.com/peter88213/
+
 ===============
 noveltree_aeon2
 ===============
 
 **Online help**
 
-This page refers to the latest `noveltree_aeon2 
-<https://peter88213.github.io/noveltree_aeon2/>`__ release. 
+This page refers to the latest `noveltree_aeon2
+<https://peter88213.github.io/noveltree_aeon2/>`__ release.
 You can open it with **Help > Aeon 2 plugin Online help**.
 
 

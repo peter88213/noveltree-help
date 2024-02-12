@@ -29,10 +29,9 @@ if "%1" == "" goto help
 REM GitHub opotion for Windows, see: https://github.com/sphinx-doc/sphinx/issues/3382
 
 if "%1" == "github" (
-    %SPHINXBUILD% -b html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+    %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
     robocopy %BUILDDIR%/html docs /E > nul
     echo.Generated files copied to docs
-    type nul > docs\.nojekyll
     goto end
 )
 
