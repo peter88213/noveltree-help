@@ -1,7 +1,8 @@
 Chapter/part properties
 =======================
 
-The Chapter/part properties view opens in the right pane when you select a chapter or a part in the tree.
+The Chapter/part properties view opens in the right pane
+when you select a chapter or a part in the tree.
 You can edit the properties of the selected chapter or part.
 
 .. hint::
@@ -23,8 +24,8 @@ anywhere outside the text input field.
 
 
 _`Do not auto-number` this chapter/part
-   If this checkbox is ticked, the title of the selected chapter will
-   remain untouched when the chapters are
+   If this checkbox is ticked, the title of the selected chapter
+   or part will remain untouched when the chapters are
    `auto-numbered <book_view.html#auto-numbering>`_.
 
 Navigation buttons
