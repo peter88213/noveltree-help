@@ -22,11 +22,17 @@ The editing of the title can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
+.. note::
+   Depending on your `Book settings <book_view.html#auto-numbering>`_, 
+   *noveltree* might overwrite the title the next time the tree is refreshed.
+   Thus, you don't need to edit the capter/part title, if auto numbering is
+   activated and the selected chapter or part is not excluded from 
+   auto numbering (see below).
 
 _`Do not auto-number` this chapter/part
-   If this checkbox is ticked, the title of the selected chapter
-   or part will remain untouched when the chapters are
-   `auto-numbered <book_view.html#auto-numbering>`_.
+   If this checkbox is ticked, the selected chapter or part will be excluded
+   from `auto numbering <book_view.html#auto-numbering>`_, and the title
+   you enter manually will persist.
 
 Navigation buttons
 ------------------

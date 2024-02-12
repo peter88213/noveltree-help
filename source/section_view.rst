@@ -61,6 +61,55 @@ View the related element
 Date/Time
 ---------
 
+Here you can enter information about the selected section's narrative time.
+
+.. hint::
+   Dedicated timeline software offers a more convenient way of entering date/time 
+   and duration information. So if chronology is important to your story, you
+   might want to take a look at the `Timeline plugin 
+   <https://peter88213.github.io/noveltree_timeline/>`_, or the 
+   `Aeon Timeline 2 plugin <https://peter88213.github.io/noveltree_aeon2/>`_.
+
+Start
+~~~~~
+
+If the selected section is a scene, this is when it starts:
+
+Date
+   Format: *YYYY-MM-DD*, according to ISO 8601.
+
+Time
+   Format: *hh:mm*, according to ISO 8601.
+
+Day
+   Format: Any number. Day "0" is the `reference date
+   <book_view.html#narrative-time>`_, if set.
+
+.. note::
+   All entries are optional. You can either enter a date, or a day. 
+   
+Clear date/time
+   This removes Date/Time/Day data from the selected section.
+
+Generate
+   This generates date and time from the date/time/duration data of the
+   `previous section <Navigation buttons_>`_, so the selected section
+   follows directly the previous one.
+
+Convert date/day
+   If the `reference date <book_view.html#narrative-time>`_ is set,
+   The implicit *Day* can be transformed into an explicit *Date*,
+   and vice versa.
+
+   .. hint::
+      If necessary, you can convert all sections at once in the 
+      `Book properties view <book_view.html#narrative-time>`_.
+   
+
+Duration
+~~~~~~~~
+
+
 
 "Sticky note"
 -------------
