@@ -3,20 +3,20 @@ Tools menu
 
 **Miscellaneous functions**
 
+.. figure:: _images/toolsMenu02.png
+   :alt: noveltree screenshot
+
 .. note:: 
    The *Tools* menu can be extended by plugins to add more
    features.
-
 
 Plugin manager
 --------------
 
 **Display and manage installed plugins**
 
-
 .. figure:: _images/toolsMenu01.png
    :alt: noveltree screenshot
-
 
 -  Successfully installed plugins are displayed black on white by
    default.

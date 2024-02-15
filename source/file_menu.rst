@@ -1,9 +1,10 @@
 File menu
 =========
 
-
 **File operation**
 
+.. figure:: _images/fileMenu01.png
+   :alt: noveltree screenshot
 
 New
 ---
@@ -17,6 +18,8 @@ New
 	The submenu can be extended by plugins to add more file types
 	from which a *noveltree* project can be created.
 
+.. figure:: _images/fileMenu02.png
+   :alt: noveltree screenshot
 
 Empty project
    -  This will close the current project and create a blank project.

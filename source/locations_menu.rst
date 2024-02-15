@@ -3,6 +3,8 @@ Locations menu
 
 **Location operation**
 
+.. figure:: _images/locationsMenu01.png
+   :alt: noveltree screenshot
 
 Add
 ---

@@ -3,6 +3,8 @@ Characters menu
 
 **Character operation**
 
+.. figure:: _images/charactersMenu01.png
+   :alt: noveltree screenshot
 
 Add
 ---
@@ -24,7 +26,16 @@ Set Status
 
 **Set the character status**
 
-This can be *major* or *minor*.
+.. figure:: _images/charactersMenu02.png
+   :alt: noveltree screenshot
+
+This can be *major* or *minor*. Major characters are highlighted in the
+tree view.
+
+.. note::
+   The character status is only for visual distinction. It has no
+   influence on the program functions. Nevertheless, you can use it
+   to mark viewpoint characters or characters with their own arcs.
 
 
 Import

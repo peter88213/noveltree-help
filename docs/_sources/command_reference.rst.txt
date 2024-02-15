@@ -27,5 +27,6 @@ Command reference
    export_menu
    import_menu
    tools_menu
+   help_menu
    tree_context_menu
    toolbar

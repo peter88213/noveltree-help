@@ -3,16 +3,18 @@ Section menu
 
 **Section operation**
 
+.. figure:: _images/sectionMenu01.png
+   :alt: noveltree screenshot
 
 Add
 ---
 
 **Add a new section**
 
-You can add a section to the tree with **Section > Add**. 
+You can add a section to the tree with **Section > Add**.
 
 - The new section is placed at the next free position after the selection, if
-  possible. 
+  possible.
 - Otherwise, no new section is generated.
 - The new section has an auto-generated title. You can change it in
   the right pane.
@@ -28,19 +30,26 @@ Properties of a new section
 Set Type
 --------
 
-**Set the** `type <basic_concepts.html#part-chapter-section-types>`__ **of the selected section**
+**Set the type of the selected section**
 
-This can be *Normal* or *Unused*.
+.. figure:: _images/sectionMenu02.png
+   :alt: noveltree screenshot
+
+The `section type <basic_concepts.html#part-chapter-section-types>`__
+can be *Normal* or *Unused*.
 
 Type change for multiple sections
-   - Either select multiple sections, or 
+   - Either select multiple sections, or
    - select a chapter.
 
 
 Set Status
 ----------
 
-**Set the** `section completion status <basic_concepts.html#section-completion-status>`__
+**Set the section completion status**
+
+.. figure:: _images/sectionMenu03.png
+   :alt: noveltree screenshot
 
 This can be *Outline*, *Draft*, *1st Edit*, *2nd Edit*, or *Done*.
 

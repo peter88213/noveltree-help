@@ -4,25 +4,32 @@ Chapter menu
 
 **Chapter operation**
 
+.. figure:: _images/chapterMenu01.png
+   :alt: noveltree screenshot
 
 Add
 ---
 
 **Add a new chapter**
 
-You can add a chapter to the tree with **Chapter > Add**. 
+You can add a chapter to the tree with **Chapter > Add**.
 
 -  The new chapter is placed at the next free position after the selection, if
    possible. - Otherwise, the new chapter is placed at the end of the
-   “Book” branch. 
+   “Book” branch.
 -  The new chapter has an auto-generated title. You can change it in the right pane.
 
 
 Set Type
 --------
 
-Sets the `type <basic_concepts.html#part-chapter-section-types>`__ of 
-the selected chapters. This can be *Normal* or *Unused*.
+**Set the type of the selected chapters**
+
+.. figure:: _images/chapterMenu02.png
+   :alt: noveltree screenshot
+
+The `type <basic_concepts.html#part-chapter-section-types>`__ of
+the selected chapter can be *Normal* or *Unused*.
 
 .. hint::
    Setting the type of a chapter to *Unused* will also make its sections *Unused*.
@@ -31,7 +38,10 @@ the selected chapters. This can be *Normal* or *Unused*.
 Change Level
 ------------
 
-Changes the level of the selected chapters.
+**Change the level of the selected chapters**
+
+.. figure:: _images/chapterMenu03.png
+   :alt: noveltree screenshot
 
 -  **1st Level** converts the selected parts into chapters.
 -  **2nd Level** converts the selected chapters into parts.

@@ -3,6 +3,8 @@ Export menu
 
 **File export**
 
+.. figure:: _images/exportMenu01.png
+   :alt: noveltree screenshot
 
 Manuscript for editing
 ----------------------
@@ -25,7 +27,7 @@ File name suffix is ``_manuscript_tmp``.
    -  ``###`` → Section divider. Optionally, you can append the section
       title to the section divider. You can also add a description,
       separated by ``|``.
-   
+
    .. note:: 
       Documents with split sections are automatically
       discarded after the *noveltree* project is updated.
@@ -59,7 +61,7 @@ text document (odt) with visible section markers. File name suffix is
    -  ``###`` → Section divider. Optionally, you can append the section
       title to the section divider. You can also add a description,
       separated by ``|``.
-      
+
    .. note:: 
       Documents with split sections are automatically
       discarded after the *noveltree* project is updated.
