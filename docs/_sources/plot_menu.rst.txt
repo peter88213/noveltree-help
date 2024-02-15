@@ -86,6 +86,11 @@ File name suffix is ``_plotlist``.
    LibreOffice screenshot. Note the hyperlink from the arc title in the
    plot list (left) to the arc in the plot description (right). 
 
+.. note::
+   Hyperlinks in ODS spreadsheets are absolute within the file system, 
+   so they might not work after moving the location of your project file
+   to another folder or computer. In this case, you will have to 
+   export the spreadsheet anew.  
 
 Show plot list
 --------------
