@@ -17,6 +17,30 @@ The editing of the title can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
+Full name
+---------
+
+The character's title as shown on the index card is used as
+a short name at several places. The full name can be entered
+separately. Editing can be completed by pressing the ``Enter`` key.
+
+AKA
+---
+
+This entry field is for alias names. Editing can be completed
+by pressing the ``Enter`` key.
+
+Tags
+----
+
+Tags are a very freely usable tool for labeling characters in the
+tree view. Tags do not have to be defined elsewhere, but simply
+entered in the input field separated by semicolons.
+Editing can be completed by pressing the ``Enter`` key.
+
+.. caution::
+   If you want to use a tag more than once, make sure you use 
+   the same spelling in the different places. 
 
 Bio
 ---
@@ -48,7 +72,7 @@ the text input field.
 .. hint::
    This text box can hold any character data that seem important to you.
    If "Goals" is not the right category for you, you can change the label
-   in the `book settings <book_view.html#renamings>`_. 
+   in the `book settings <book_view.html#renamings>`__. 
 
 Links
 -----
@@ -76,7 +100,7 @@ system's standard image viewer.
    that your standard image viewer can browse through, a single link 
    to any image file is sufficient.  
    
-The
+The links are displayed in a list in the order they are entered.
 
 Add Link
    When clicking on |Add|, a file selection dialog opens. The selected

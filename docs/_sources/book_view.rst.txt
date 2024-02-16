@@ -79,13 +79,13 @@ Expand or collapse this frame by clicking on the label.
 
 Auto number chapters/parts when refreshing the tree
    If this checkbox is ticked, all chapters/parts are automatically numbered
-   each time `the tree is refreshed <file_menu.html#refresh-tree>`_.
+   each time `the tree is refreshed <file_menu.html#refresh-tree>`__.
    The chapter titles are replaced with a ``prefix-number-suffix``
    pattern (without the dashes).
 
    .. hint::   
       You can optionally exclude individual chapters/parts from auto-numbering 
-      in the `Chapter/part properties <chapter_view.html#do-not-auto-number>`_.
+      in the `Chapter/part properties <chapter_view.html#do-not-auto-number>`__.
 
 Prefix and suffix entries can be completed by pressing the ``Enter`` key.
 

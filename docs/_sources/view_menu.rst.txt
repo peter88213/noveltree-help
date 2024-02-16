@@ -107,7 +107,7 @@ Toggle Text viewer
 
 **Show/hide the novel text**
 
--  You can open or close the `text viewer <desktop.html>`_ window, showing part/chapter/section
+-  You can open or close the `text viewer <desktop.html>`__ window, showing part/chapter/section
    titles and section content, with **View > Toggle Text viewer** or
    **Ctrl-T**.
 -  On opening, the windows shows the text, where the tree is selected.

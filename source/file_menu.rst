@@ -105,7 +105,7 @@ You can refresh the tree with **File > Refresh tree** or **F5**.
 -  “Normal” sections that have been moved to an “Unused” chapter are
    made “Unused”.
 -  Parts and chapters are renumbered according to the `Auto numbering
-   settings <book_view.html#auto-numbering>`_.
+   settings <book_view.html#auto-numbering>`__.
 -  The “Trash” chapter is moved to the end of the book, if necessary.
 
 
@@ -174,7 +174,8 @@ Discard manuscript
 
 **Discard the current manuscript by renaming it**
 
--  You can add the *.bak* extension to the current manuscript with
+-  You can add the *.bak* extension to the `current manuscript
+   <export_menu#manuscript-for-editing>`__ with
    **File > Discard manuscript**. This may help to avoid confusion about
    changes made with *noveltree* and OpenOffice/LibreOffice.
 

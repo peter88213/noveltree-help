@@ -2,7 +2,7 @@ Arc properties
 ==============
 
 The Arc properties view opens in the right pane when you
-select an `arc <plotting.html#defining-arcs>`_ in the tree.
+select an `arc <plotting.html#defining-arcs>`__ in the tree.
 
 .. figure:: _images/arcView01.png
    :alt: noveltree screenshot
@@ -33,10 +33,15 @@ Section assignments
 -------------------
 
 The number of sections that belong to the selected arc is shown
-below the "Short name" entry.
-You can unlink these sections from the selected arc by clicking
-on the **Clear section assignments** button.
+below the "Short name" entry. The assignments can be made in the
+`section properties view <section_view.html#plot>`__.
+You can unlink all sections from the selected arc at once by
+clicking on the **Clear section assignments** button.
 
+.. hint::
+   A convenient way to manage and keep track of section assignments is 
+   offered by the `noveltree_matrix plugin 
+   <https://peter88213.github.io/noveltree_matrix/>`__. 
 
 Navigation buttons
 ------------------

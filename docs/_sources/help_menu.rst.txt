@@ -7,13 +7,13 @@ Help menu
    :alt: noveltree screenshot
 
 .. note:: 
-   The *Help* menu can be extended by plugins to add more
-   features.
+   The *Help* menu can be extended by plugins adding links to their
+   specific help pages.
 
 Online Help
 -----------
 
-This lauches the system web browser with the *noveltree* Online help URL.
+This lauches the system web browser with the *noveltree* online help URL.
 
 noveltree home page
 -------------------

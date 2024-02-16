@@ -17,6 +17,24 @@ The editing of the title can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
+Tags
+----
+Tags are a very freely usable tool for labeling sections in the
+tree view. Tags do not have to be defined elsewhere, but simply
+entered in the input field separated by semicolons.
+Editing can be completed by pressing the ``Enter`` key.
+
+.. caution::
+   If you want to use a tag more than once, make sure you use 
+   the same spelling in the different places. 
+
+Viewpoint
+---------
+
+The viewpoint character's short name is displayed in the tree view.
+You can select it from a drop-down list containing all characters
+in the tree view's sort order.
+
 Plot
 ----
 
@@ -24,6 +42,18 @@ Expand or collapse this frame by clicking on the label.
 
 .. figure:: _images/sectionView04.png
    :alt: Screenshot
+
+Arcs
+~~~~
+
+Here you can assign the selected section to the arcs it belongs to.
+The assigned arcs are displayed in a list in the order they are
+assigned to the section.
+
+.. hint::
+   A more convenient way to manage and keep track of arc assignments is 
+   offered by the `noveltree_matrix plugin 
+   <https://peter88213.github.io/noveltree_matrix/>`__. 
 
 Add arc assignment
    When clicking on |Add|, the "Pick mode"
@@ -46,12 +76,14 @@ View the related element
       You can go back to the initially selected section with |Go Back|. 
 
 Turning points
-   The turning points assigned with the selected section are displayed
-   along with their arcs.
+~~~~~~~~~~~~~~
 
-   .. hint::
-      To change or clear the turning point assignment, go to the
-      `turning point's properties <point_view.html.assigned-section>`_.
+The turning points assigned with the selected section are displayed
+along with their arcs.
+
+.. hint::
+   To change or clear the turning point assignment, go to the
+   `turning point's properties <point_view.html#assigned-section>`__.
 
 
 Action/Reaction
@@ -90,14 +122,19 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/sectionView02.png
    :alt: Screenshot
 
+If you want to associate characters, locations, and items with the
+section, you can do it here by adding the element to a list of
+relationships.
+
 Show ages
    If a section is dated, you can call up the ages of the related
-   characters who have `birth dates <character_view.html#bio>`_.
+   characters who have `birth dates <character_view.html#bio>`__.
 
 Add Relationship
    When clicking on |Add|, the "Pick mode"
    is activated, and the cursor changes to a "plus" shape. By clicking
-   on a character/location/item, this element will be related with the section.
+   on a character/location/item, this element will be related with the
+   section.
 
    .. hint::
       You can exit the "Pick mode" without selecting an element by
@@ -105,7 +142,8 @@ Add Relationship
       key. 
 
 Remove Relationship
-   When clicking on |Remove|, the selected relationship is removed from the list.
+   When clicking on |Remove|, the selected relationship is removed from
+   the list.
 
 View the related element
    When double-clicking on a related element, or clicking on |Goto|,
@@ -113,6 +151,12 @@ View the related element
 
    .. hint::
       You can go back to the initially selected section with |Go Back|. 
+
+.. hint::
+   A convenient way to manage and keep track of relationships is offered 
+   by the `noveltree_matrix plugin 
+   <https://peter88213.github.io/noveltree_matrix/>`__. 
+
 
 .. |Add| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -129,8 +173,8 @@ Here you can enter information about the selected section's narrative time.
    Dedicated timeline software offers a more convenient way of entering date/time 
    and duration information. So if chronology is important to your story, you
    might want to take a look at the `Timeline plugin 
-   <https://peter88213.github.io/noveltree_timeline/>`_, or the 
-   `Aeon Timeline 2 plugin <https://peter88213.github.io/noveltree_aeon2/>`_.
+   <https://peter88213.github.io/noveltree_timeline/>`__, or the 
+   `Aeon Timeline 2 plugin <https://peter88213.github.io/noveltree_aeon2/>`__.
 
 .. figure:: _images/sectionView05.png
    :alt: Screenshot
@@ -162,13 +206,13 @@ Generate
    follows directly the previous one.
 
 Convert date/day
-   If the `reference date <book_view.html#narrative-time>`_ is set,
+   If the `reference date <book_view.html#narrative-time>`__ is set,
    The implicit *Day* can be transformed into an explicit *Date*,
    and vice versa.
 
    .. hint::
       If necessary, you can convert all sections at once in the 
-      `Book properties view <book_view.html#narrative-time>`_.
+      `Book properties view <book_view.html#narrative-time>`__.
    
 
 Duration

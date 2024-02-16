@@ -55,7 +55,13 @@
 <li class="toctree-l2"><a class="reference internal" href="stage_view.html">Stage properties</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Section properties</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#title-and-description">Title and description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#plot">Plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tags">Tags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewpoint">Viewpoint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot">Plot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#arcs">Arcs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#turning-points">Turning points</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#action-reaction">Action/Reaction</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#relationships">Relationships</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#date-time">Date/Time</a><ul>
@@ -115,12 +121,40 @@ select a section in the tree.</p>
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.</p>
 </section>
+<section id="tags">
+<h2>Tags<a class="headerlink" href="#tags" title="Link to this heading"></a></h2>
+<p>Tags are a very freely usable tool for labeling sections in the
+tree view. Tags do not have to be defined elsewhere, but simply
+entered in the input field separated by semicolons.
+Editing can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>If you want to use a tag more than once, make sure you use
+the same spelling in the different places.</p>
+</div>
+</section>
+<section id="viewpoint">
+<h2>Viewpoint<a class="headerlink" href="#viewpoint" title="Link to this heading"></a></h2>
+<p>The viewpoint character’s short name is displayed in the tree view.
+You can select it from a drop-down list containing all characters
+in the tree view’s sort order.</p>
+</section>
 <section id="plot">
 <h2>Plot<a class="headerlink" href="#plot" title="Link to this heading"></a></h2>
 <p>Expand or collapse this frame by clicking on the label.</p>
 <figure class="align-default">
 <img alt="Screenshot" src="_images/sectionView04.png" />
 </figure>
+<section id="arcs">
+<h3>Arcs<a class="headerlink" href="#arcs" title="Link to this heading"></a></h3>
+<p>Here you can assign the selected section to the arcs it belongs to.
+The assigned arcs are displayed in a list in the order they are
+assigned to the section.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>A more convenient way to manage and keep track of arc assignments is
+offered by the <a class="reference external" href="https://peter88213.github.io/noveltree_matrix/">noveltree_matrix plugin</a>.</p>
+</div>
 <dl>
 <dt>Add arc assignment</dt><dd><p>When clicking on <img alt="Add" src="_images/add.png" />, the “Pick mode”
 is activated, and the cursor changes to a “plus” shape. By clicking
@@ -141,15 +175,18 @@ the selected arc is opened and its properties are displayed.</p>
 <p>You can go back to the initially selected section with <img alt="Go back" src="_images/goBack.png" />.</p>
 </div>
 </dd>
-<dt>Turning points</dt><dd><p>The turning points assigned with the selected section are displayed
+</dl>
+</section>
+<section id="turning-points">
+<h3>Turning points<a class="headerlink" href="#turning-points" title="Link to this heading"></a></h3>
+<p>The turning points assigned with the selected section are displayed
 along with their arcs.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>To change or clear the turning point assignment, go to the
-<a class="reference external" href="point_view.html.assigned-section">turning point’s properties</a>.</p>
+<a class="reference external" href="point_view.html#assigned-section">turning point’s properties</a>.</p>
 </div>
-</dd>
-</dl>
+</section>
 </section>
 <section id="action-reaction">
 <h2>Action/Reaction<a class="headerlink" href="#action-reaction" title="Link to this heading"></a></h2>
@@ -165,10 +202,10 @@ something like this to ensure suspense, you can do so here.</p>
 to set up a dramaturgical scene micro-structure, you can set the section
 to <strong>Custom</strong> and get three <a class="reference external" href="book_view.html#renamings">freely named</a>
 text fields.</p>
-<figure class="align-default" id="id2">
+<figure class="align-default" id="id1">
 <img alt="Screenshot" src="_images/sectionView06.png" />
 <figcaption>
-<p><span class="caption-text">Example of a user-defined scene category</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+<p><span class="caption-text">Example of a user-defined scene category</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -184,13 +221,17 @@ However, it all appears in the <a class="reference external" href="section_menu.
 <figure class="align-default">
 <img alt="Screenshot" src="_images/sectionView02.png" />
 </figure>
+<p>If you want to associate characters, locations, and items with the
+section, you can do it here by adding the element to a list of
+relationships.</p>
 <dl>
 <dt>Show ages</dt><dd><p>If a section is dated, you can call up the ages of the related
 characters who have <a class="reference external" href="character_view.html#bio">birth dates</a>.</p>
 </dd>
 <dt>Add Relationship</dt><dd><p>When clicking on <img alt="Add" src="_images/add.png" />, the “Pick mode”
 is activated, and the cursor changes to a “plus” shape. By clicking
-on a character/location/item, this element will be related with the section.</p>
+on a character/location/item, this element will be related with the
+section.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>You can exit the “Pick mode” without selecting an element by
@@ -198,7 +239,8 @@ clicking on the highlighted status bar, or by pressing the <code class="docutils
 key.</p>
 </div>
 </dd>
-<dt>Remove Relationship</dt><dd><p>When clicking on <img alt="Remove" src="_images/remove.png" />, the selected relationship is removed from the list.</p>
+<dt>Remove Relationship</dt><dd><p>When clicking on <img alt="Remove" src="_images/remove.png" />, the selected relationship is removed from
+the list.</p>
 </dd>
 <dt>View the related element</dt><dd><p>When double-clicking on a related element, or clicking on <img alt="Goto" src="_images/goto.png" />,
 the selected element is opened and its properties are displayed.</p>
@@ -208,6 +250,11 @@ the selected element is opened and its properties are displayed.</p>
 </div>
 </dd>
 </dl>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>A convenient way to manage and keep track of relationships is offered
+by the <a class="reference external" href="https://peter88213.github.io/noveltree_matrix/">noveltree_matrix plugin</a>.</p>
+</div>
 </section>
 <section id="date-time">
 <h2>Date/Time<a class="headerlink" href="#date-time" title="Link to this heading"></a></h2>
