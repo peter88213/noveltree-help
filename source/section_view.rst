@@ -66,7 +66,8 @@ Add arc assignment
       key. 
 
 Remove arc assignment
-   When clicking on |Remove|, the selected arc is removed from the list.
+   When clicking on |Remove| or pressing the ``Del`` key,
+   the selected arc is removed from the list.
 
 View the related element
    When double-clicking on an arc, or clicking on |Goto|,
@@ -142,8 +143,8 @@ Add Relationship
       key. 
 
 Remove Relationship
-   When clicking on |Remove|, the selected relationship is removed from
-   the list.
+   When clicking on |Remove| or pressing the ``Del`` key,
+   the selected relationship is removed from the list.
 
 View the related element
    When double-clicking on a related element, or clicking on |Goto|,

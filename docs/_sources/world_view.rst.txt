@@ -78,7 +78,8 @@ Add Link
 
 
 Remove Link
-   When clicking on |Remove|, the selected link is removed from the list.
+   When clicking on |Remove| or pressing the ``Del`` key,
+   the selected link is removed from the list.
 
 Open Link
    When double-clicking on a link, or clicking on |Goto|,
