@@ -22,15 +22,57 @@ Plot
 
 Expand or collapse this frame by clicking on the label.
 
+.. figure:: _images/sectionView04.png
+   :alt: Screenshot
+
+Add arc assignment
+   When clicking on |Add|, the "Pick mode"
+   is activated, and the cursor changes to a "plus" shape. By clicking
+   on an arc, it will be related with the section.
+
+   .. hint::
+      You can exit the "Pick mode" without selecting an element by
+      clicking on the highlighted status bar, or by pressing the ``Esc``
+      key. 
+
+Remove arc assignment
+   When clicking on |Remove|, the selected arc is removed from the list.
+
+View the related element
+   When double-clicking on an arc, or clicking on |Goto|,
+   the selected arc is opened and its properties are displayed.
+
+   .. hint::
+      You can go back to the initially selected section with |Go Back|. 
+
+Turning points
+   The turning points assigned with the selected section are displayed
+   along with their arcs.
+
+   .. hint::
+      To change or clear the turning point assignment, go to the
+      `turning point's properties <point_view.html.assigned-section>`_.
+
+
 Action/Reaction
 ---------------
 
 Expand or collapse this frame by clicking on the label.
 
+.. figure:: _images/sectionView03.png
+   :alt: Screenshot
+
 Relationships
 -------------
 
 Expand or collapse this frame by clicking on the label.
+
+.. figure:: _images/sectionView02.png
+   :alt: Screenshot
+
+Show ages
+   If a section is dated, you can call up the ages of the related
+   characters who have `birth dates <character_view.html#bio>`_.
 
 Add Relationship
    When clicking on |Add|, the "Pick mode"
@@ -69,6 +111,9 @@ Here you can enter information about the selected section's narrative time.
    might want to take a look at the `Timeline plugin 
    <https://peter88213.github.io/noveltree_timeline/>`_, or the 
    `Aeon Timeline 2 plugin <https://peter88213.github.io/noveltree_aeon2/>`_.
+
+.. figure:: _images/sectionView05.png
+   :alt: Screenshot
 
 Start
 ~~~~~
