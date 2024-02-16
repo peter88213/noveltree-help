@@ -211,7 +211,7 @@ Arcs context menu entries
    :alt: noveltree screenshot
 
 Add Arc
-^^^^^^^
+~~~~~~~
 
 Adds a new story arc
 
@@ -221,7 +221,7 @@ Adds a new story arc
    right pane.
 
 Add Turning point
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Adds a new Turning point
 
