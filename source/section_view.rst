@@ -64,8 +64,8 @@ Expand or collapse this frame by clicking on the label.
 
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and
-"reaction scenes" or "sequences". If you want to implement something
-like this to ensure suspense, you can do so here.
+"reaction scenes", or "scenes" and "sequels". If you want to implement
+something like this to ensure suspense, you can do so here.
 
 If this is not for you, but you would like to use a different method
 to set up a dramaturgical scene micro-structure, you can set the section
