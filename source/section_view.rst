@@ -67,9 +67,10 @@ are best divided into scenes, alternating between "action scenes" and
 "reaction scenes" or "sequences". If you want to implement something
 like this to ensure suspense, you can do so here.
 
-If this is not for you, but you use a different method to characterize
-the flow of your scenes, you can set the section to **Custom** and get
-three `freely named <book_view.html#renamings>`_ text fields.
+If this is not for you, but you would like to use a different method
+to set up a dramaturgical scene micro-structure, you can set the section
+to **Custom** and get three `freely named <book_view.html#renamings>`_
+text fields.
 
 .. figure:: _images/sectionView06.png
    :alt: Screenshot

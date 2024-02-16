@@ -31,7 +31,7 @@ Set Type
 The `type <basic_concepts.html#part-chapter-section-types>`__ of
 the selected chapter can be *Normal* or *Unused*.
 
-.. hint::
+.. note::
    Setting the type of a chapter to *Unused* will also make its sections *Unused*.
 
 

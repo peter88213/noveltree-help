@@ -43,15 +43,14 @@ Project tree operation
 ~~~~~~~~~~~~~~~~~~~~~~
 
 
-Browse the tree
-^^^^^^^^^^^^^^^
+Browsing the tree
+   *noveltree* has a browsing history for the selected tree elements.
+   -  |Go back| selects a node back in the tree browsing history.
+   -  |Go forward| selects a node forward in the tree browsing history.
 
--  |Go back| selects a node back in the tree browsing history.
--  |Go forward| selects a node forward in the tree browsing history.
-
-.. hint::
-   On Windows, the “Forward” and “Back” mouse buttons (if any) 
-   may also work.
+   .. hint::
+      On Windows, the “Forward” and “Back” mouse buttons (if any) 
+      may also work.
 
 
 Move parts, chapters, and sections
