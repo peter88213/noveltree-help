@@ -14,9 +14,9 @@ help:
 
 # Making sure you can still build Sphinx locally for reviews.
 # See: https://www.docslikecode.com/articles/github-pages-python-sphinx/
-#github:
-#    @make html
-#    @cp -a _build/html/. ../docs
+github:
+    @make html
+    @cp -a build/html/. ../docs
 
 .PHONY: help Makefile
 
