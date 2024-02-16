@@ -1,14 +1,3 @@
-|noveltree| `noveltree home page <https://peter88213.github.io/noveltree/>`__
-
-|github| `peter88213 <https://github.com/peter88213/>`__
-
-.. |noveltree| image:: ../_images/nLogo24.png
-   :target: https://peter88213.github.io/noveltree/
-
-.. |github| image:: ../_images/github.png
-   :target: https://github.com/peter88213/
-
-=================
 noveltree_updater
 =================
 
@@ -38,3 +27,5 @@ Start the update checker
    system web browser. If a download directory is preset, all zip files
    with the downloaded releases will end up there. You then perform the
    actual installation manually as usual.
+
+   
