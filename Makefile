@@ -16,7 +16,7 @@ help:
 # See: https://www.docslikecode.com/articles/github-pages-python-sphinx/
 github:
     @make html
-    @cp -a build/html/. ../docs
+    @cp -a build/html/. docs
 
 .PHONY: help Makefile
 
