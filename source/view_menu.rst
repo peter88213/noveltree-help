@@ -118,7 +118,7 @@ Toggle Text viewer
    **Ctrl-C**.
 -  You cannot edit the text. For this, you might want to install an
    editor plugin, such as
-   `noveltree_editor <https://peter88213.github.io/noveltree_editor/>`__.
+   `nv_editor <https://peter88213.github.io/nv_editor/>`__.
 
 
 Toggle Properties

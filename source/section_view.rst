@@ -52,8 +52,8 @@ assigned to the section.
 
 .. hint::
    A more convenient way to manage and keep track of arc assignments is 
-   offered by the `noveltree_matrix plugin 
-   <https://peter88213.github.io/noveltree_matrix/>`__. 
+   offered by the `nv_matrix plugin 
+   <https://peter88213.github.io/nv_matrix/>`__. 
 
 Add arc assignment
    When clicking on |Add|, the "Pick mode"
@@ -155,8 +155,8 @@ View the related element
 
 .. hint::
    A convenient way to manage and keep track of relationships is offered 
-   by the `noveltree_matrix plugin 
-   <https://peter88213.github.io/noveltree_matrix/>`__. 
+   by the `nv_matrix plugin 
+   <https://peter88213.github.io/nv_matrix/>`__. 
 
 
 .. |Add| image:: _images/add.png
@@ -174,8 +174,8 @@ Here you can enter information about the selected section's narrative time.
    Dedicated timeline software offers a more convenient way of entering date/time 
    and duration information. So if chronology is important to your story, you
    might want to take a look at the `Timeline plugin 
-   <https://peter88213.github.io/noveltree_timeline/>`__, or the 
-   `Aeon Timeline 2 plugin <https://peter88213.github.io/noveltree_aeon2/>`__.
+   <https://peter88213.github.io/nv_timeline/>`__, or the 
+   `Aeon Timeline 2 plugin <https://peter88213.github.io/nv_aeon2/>`__.
 
 .. figure:: _images/sectionView05.png
    :alt: Screenshot

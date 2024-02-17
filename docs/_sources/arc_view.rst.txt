@@ -40,8 +40,8 @@ clicking on the **Clear section assignments** button.
 
 .. hint::
    A convenient way to manage and keep track of section assignments is 
-   offered by the `noveltree_matrix plugin 
-   <https://peter88213.github.io/noveltree_matrix/>`__. 
+   offered by the `nv_matrix plugin 
+   <https://peter88213.github.io/nv_matrix/>`__. 
 
 Navigation buttons
 ------------------
