@@ -161,8 +161,8 @@ Convert days to dates
    `Section properties view <section_view.html#start>`__.
    
 
-Writing pogress
----------------
+Writing progress
+----------------
 
 Expand or collapse this frame by clicking on the label.
 
