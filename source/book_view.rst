@@ -122,13 +122,44 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/bookView05.png
    :alt: noveltree screenshot
 
+To get an overview of the course of the narrative time, you can enter
+date/time information `for each section <section_view.html#date-time>`__.
+The date can be specific *(YYYY-MM-DD)* or unspecific (number of days,
+e.g. from the beginning of the story).
+
 Reference date
+   The reference date is optional. It can be used to convert relative dates
+   into absolute dates, or vice versa. The timeline software plugins may
+   use the reference date for creating events from sections that have no
+   date or an unspecific one.
+
    Format: *YYYY-MM-DD*, according to ISO 8601.
 
-Convert dates to days
+   .. hint::
+      Even if you don't need specific dates for your story, specifying
+      a reference date might be helpful. Thus, a day of the week
+      can be displayed along with the `unspecific date 
+      <section_view.html#start>`__, and ages can be calculated for 
+      `related characters <section_view.html#relationships>`__.  
 
+Convert dates to days
+   This transforms specific section dates into days, related to the
+   reference date.
 
 Convert days to dates
+   This transforms unspecific section dates into specific ones, using
+   the reference date.
+
+.. note::
+   For large novels, the conversion may take some time, depending on 
+   your system. During the conversion time, the clicked button will 
+   display *"Please wait ..."*.  
+
+.. hint::
+   The commands above convert all dated sections at once. If you want to 
+   do the conversion for single sections, just go to the 
+   `Section properties view <section_view.html#start>`__.
+   
 
 Writing pogress
 ---------------
@@ -138,6 +169,49 @@ Expand or collapse this frame by clicking on the label.
 .. figure:: _images/bookView06.png
    :alt: noveltree screenshot
 
+With *noveltree*, you can set a word count target and track your
+writing progress.
+
+.. note::
+   Regardless of the entries made here, you can see the word count 
+   in the status bar at any time. 
+
+Log writing progress
+   By default, *noveltree* stores a log entry with the word counts
+   for each day on which you edit the project. You can prevent
+   this by unticking the **Log writing progress** checkbox.
+
+   .. hint::
+      For viewing the daily progress log, you may want to 
+      install the `nv_progress plugin 
+      <https://peter88213.github.io/nv_progress/>`__.
+
+Words to write
+   Here you can enter a number (without decimal points or separators)
+   indicating your writing goal in words.
+   The entry can be completed by pressing the ``Enter`` key.
+
+Starting count
+   Here you can enter a number (without decimal points or separators)
+   indicating the word count you want to start from.
+   The entry can be completed by pressing the ``Enter`` key.
+
+Set actual wordcount as start
+   Click this button to enter your current word count in the **Starting
+   count** field.
+
+Words written
+   Here the difference between your actual word count and the starting
+   count is displayed. The percentage refers to the words to write.
+
+Work phase
+   This setting is for the tree viewer `"Work phase" coloring mode
+   <view_menu.html#coloring-mode>`__.
+
+   - Sections with the same completion status as the selected work
+     phase are black.
+   - Sections that are ahead of the selected work phase are green.
+   - Sections that are behind the selected work phase are magenta.
 
 
 Cover thumbnail

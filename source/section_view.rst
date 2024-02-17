@@ -208,7 +208,7 @@ Generate
 
 Convert date/day
    If the `reference date <book_view.html#narrative-time>`__ is set,
-   The implicit *Day* can be transformed into an explicit *Date*,
+   The unspecific *Day* can be transformed into a specific *Date*,
    and vice versa.
 
    .. hint::

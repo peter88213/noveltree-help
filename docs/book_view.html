@@ -207,12 +207,43 @@ in each part.</p>
 <figure class="align-default">
 <img alt="noveltree screenshot" src="_images/bookView05.png" />
 </figure>
-<dl class="simple">
-<dt>Reference date</dt><dd><p>Format: <em>YYYY-MM-DD</em>, according to ISO 8601.</p>
+<p>To get an overview of the course of the narrative time, you can enter
+date/time information <a class="reference external" href="section_view.html#date-time">for each section</a>.
+The date can be specific <em>(YYYY-MM-DD)</em> or unspecific (number of days,
+e.g. from the beginning of the story).</p>
+<dl>
+<dt>Reference date</dt><dd><p>The reference date is optional. It can be used to convert relative dates
+into absolute dates, or vice versa. The timeline software plugins may
+use the reference date for creating events from sections that have no
+date or an unspecific one.</p>
+<p>Format: <em>YYYY-MM-DD</em>, according to ISO 8601.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Even if you don’t need specific dates for your story, specifying
+a reference date might be helpful. Thus, a day of the week
+can be displayed along with the <a class="reference external" href="section_view.html#start">unspecific date</a>, and ages can be calculated for
+<a class="reference external" href="section_view.html#relationships">related characters</a>.</p>
+</div>
+</dd>
+<dt>Convert dates to days</dt><dd><p>This transforms specific section dates into days, related to the
+reference date.</p>
+</dd>
+<dt>Convert days to dates</dt><dd><p>This transforms unspecific section dates into specific ones, using
+the reference date.</p>
 </dd>
 </dl>
-<p>Convert dates to days</p>
-<p>Convert days to dates</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For large novels, the conversion may take some time, depending on
+your system. During the conversion time, the clicked button will
+display <em>“Please wait …”</em>.</p>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>The commands above convert all dated sections at once. If you want to
+do the conversion for single sections, just go to the
+<a class="reference external" href="section_view.html#start">Section properties view</a>.</p>
+</div>
 </section>
 <section id="writing-pogress">
 <h2>Writing pogress<a class="headerlink" href="#writing-pogress" title="Link to this heading"></a></h2>
@@ -220,6 +251,46 @@ in each part.</p>
 <figure class="align-default">
 <img alt="noveltree screenshot" src="_images/bookView06.png" />
 </figure>
+<p>With <em>noveltree</em>, you can set a word count target and track your
+writing progress.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Regardless of the entries made here, you can see the word count
+in the status bar at any time.</p>
+</div>
+<dl>
+<dt>Log writing progress</dt><dd><p>By default, <em>noveltree</em> stores a log entry with the word counts
+for each day on which you edit the project. You can prevent
+this by unticking the <strong>Log writing progress</strong> checkbox.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>For viewing the daily progress log, you may want to
+install the <a class="reference external" href="https://peter88213.github.io/nv_progress/">nv_progress plugin</a>.</p>
+</div>
+</dd>
+<dt>Words to write</dt><dd><p>Here you can enter a number (without decimal points or separators)
+indicating your writing goal in words.
+The entry can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.</p>
+</dd>
+<dt>Starting count</dt><dd><p>Here you can enter a number (without decimal points or separators)
+indicating the word count you want to start from.
+The entry can be completed by pressing the <code class="docutils literal notranslate"><span class="pre">Enter</span></code> key.</p>
+</dd>
+<dt>Set actual wordcount as start</dt><dd><p>Click this button to enter your current word count in the <strong>Starting
+count</strong> field.</p>
+</dd>
+<dt>Words written</dt><dd><p>Here the difference between your actual word count and the starting
+count is displayed. The percentage refers to the words to write.</p>
+</dd>
+<dt>Work phase</dt><dd><p>This setting is for the tree viewer <a class="reference external" href="view_menu.html#coloring-mode">“Work phase” coloring mode</a>.</p>
+<ul class="simple">
+<li><p>Sections with the same completion status as the selected work
+phase are black.</p></li>
+<li><p>Sections that are ahead of the selected work phase are green.</p></li>
+<li><p>Sections that are behind the selected work phase are magenta.</p></li>
+</ul>
+</dd>
+</dl>
 </section>
 <section id="cover-thumbnail">
 <h2>Cover thumbnail<a class="headerlink" href="#cover-thumbnail" title="Link to this heading"></a></h2>
